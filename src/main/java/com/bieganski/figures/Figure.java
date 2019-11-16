@@ -8,6 +8,8 @@ public abstract class Figure {
     private int column;
     private int row;
 
+    protected abstract boolean checkCollision(Figure figure);
+
     public int getColumn() {
         return column;
     }
@@ -28,7 +30,7 @@ public abstract class Figure {
         this.figureSymbol = figureSymbol;
     }
 
-    public String getFigureSymbol() {
+    public String getFigureSymbolWithColor() {
         return colorFigure + figureSymbol;
     }
 

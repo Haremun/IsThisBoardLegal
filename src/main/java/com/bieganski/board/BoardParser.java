@@ -23,15 +23,17 @@ public class BoardParser {
             throw new NullPointerException("List of text lines can't be null");
         for (String line :
                 lines) {
-            char color = line.charAt(0);
+            char color = line.charAt(0); //Checking color or turn symbol '>'
             if (color == '>')
                 if (line.charAt(1) == 'B')
                     currentColor = ColorFigure.Black;
                 else
                     currentColor = ColorFigure.White;
             else {
+                if (color != 'W' && color != 'B')
+                    throw new IllegalArgumentException("Color can be only W-White or B-Black");
                 Figure figure;
-                switch (line.charAt(1)) {
+                switch (line.charAt(1)) { //Checking figure symbol
                     case 'K':
                         figure = new KingFigure();
                         break;
@@ -39,22 +41,18 @@ public class BoardParser {
                         figure = new KnightFigure();
                         break;
                     default:
-                        figure = null;
-                        break;
+                        throw new IllegalArgumentException("There is no figure like " + line.charAt(1));
                 }
-                if (figure == null)
-                    throw new IllegalArgumentException("There is no figure like " + line.charAt(1));
+                figure.setColorFigure(color); //Set figure color
 
-                figure.setColorFigure(color);
-
-                figure.setColumn(CharConverter.getIndexOfLetterInAlphabet(line.charAt(3)) - 1);
-                figure.setRow(CharConverter.convertCharNumberToInt(line.charAt(4)) - 1);
+                figure.setColumn(CharConverter.getIndexOfLetterInAlphabet(line.charAt(3)) - 1); //Set figure column
+                figure.setRow(CharConverter.convertCharNumberToInt(line.charAt(4)) - 1); //Set figure row
                 figures.add(figure);
             }
         }
     }
 
     public Board getBoard() {
-        return new Board(figures);
+        return new Board(figures, currentColor);
     }
 }

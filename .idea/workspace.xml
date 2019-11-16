@@ -3,14 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="5856099a-d3c5-4520-8f90-c45a0100c6e1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bieganski/board/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bieganski/board/Board.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bieganski/board/BoardParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bieganski/board/BoardParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bieganski/board/CharConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bieganski/board/CharConverter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bieganski/figures/Figure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bieganski/figures/Figure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bieganski/figures/KingFigure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bieganski/figures/KingFigure.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bieganski/figures/KnightFigure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bieganski/figures/KnightFigure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/board.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/board.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/board.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/board.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bieganski/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bieganski/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bieganski/board/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bieganski/board/Board.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/bieganski/board/BoardParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bieganski/board/BoardParser.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/bieganski/figures/Figure.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bieganski/figures/Figure.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bieganski/figures/KingFigure.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bieganski/figures/KingFigure.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/bieganski/figures/KnightFigure.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bieganski/figures/KnightFigure.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/bieganski/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/bieganski/AppTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +47,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/bieganski/testng.xml" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -78,23 +84,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BoardReaderTest" type="TestNG" nameIsGenerated="true">
+    <configuration name="AllTests" type="TestNG">
       <module name="IsThisBoardLegal" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bieganski.enums.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.bieganski" />
-      <option name="MAIN_CLASS_NAME" value="com.bieganski.BoardReaderTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/com/bieganski/testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.App" />
+      <item itemvalue="TestNG.AllTests" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -106,7 +116,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1573912439974</updated>
-      <workItem from="1573912442936" duration="10399000" />
+      <workItem from="1573912442936" duration="12951000" />
     </task>
     <servers />
   </component>
