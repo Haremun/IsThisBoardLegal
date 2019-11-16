@@ -45,22 +45,16 @@ public class BoardParser {
                 if (figure == null)
                     throw new IllegalArgumentException("There is no figure like " + line.charAt(1));
 
-                figure.setColumn(getIndexOfLetterInAlphabet(line.charAt(3)));
-                figure.setRow(convertCharToInt(line.charAt(4)));
+                figure.setColorFigure(color);
+
+                figure.setColumn(CharConverter.getIndexOfLetterInAlphabet(line.charAt(3)) - 1);
+                figure.setRow(CharConverter.convertCharNumberToInt(line.charAt(4)) - 1);
                 figures.add(figure);
             }
-            System.out.println(color);
         }
     }
 
     public Board getBoard() {
         return new Board(figures);
-    }
-
-    private int getIndexOfLetterInAlphabet(char letter) {
-        return letter - 64; //ASCII
-    }
-    private int convertCharToInt(char number){
-        return number - 48; //ASCII
     }
 }

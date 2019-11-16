@@ -3,12 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="5856099a-d3c5-4520-8f90-c45a0100c6e1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bieganski/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bieganski/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bieganski/BoardReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bieganski/board/BoardReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/bieganski/BoardReaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bieganski/BoardReaderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bieganski/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bieganski/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bieganski/BoardReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/bieganski/BoardReaderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/bieganski/BoardReaderTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bieganski/board/BoardParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bieganski/board/BoardParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bieganski/figures/Figure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bieganski/figures/Figure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bieganski/figures/KnightFigure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bieganski/figures/KnightFigure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/board.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/board.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/board.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/board.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bieganski/board/BoardParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bieganski/board/BoardParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bieganski/figures/Figure.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bieganski/figures/Figure.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bieganski/figures/KnightFigure.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bieganski/figures/KnightFigure.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -104,7 +106,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1573912439974</updated>
-      <workItem from="1573912442936" duration="8436000" />
+      <workItem from="1573912442936" duration="10399000" />
     </task>
     <servers />
   </component>
