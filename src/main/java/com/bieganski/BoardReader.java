@@ -8,6 +8,9 @@ import java.util.List;
 public class BoardReader {
 
     public List<String> readFileToList(String fileName) {
+        if (fileName == null)
+            throw new NullPointerException("File name can't be null!");
+
         List<String> lines = new ArrayList<>();
 
         ClassLoader classLoader = getClass().getClassLoader();
