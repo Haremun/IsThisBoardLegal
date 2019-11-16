@@ -1,5 +1,6 @@
 package com.bieganski;
 
+import com.bieganski.board.BoardReader;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 

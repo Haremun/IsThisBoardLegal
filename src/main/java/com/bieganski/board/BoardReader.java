@@ -1,4 +1,4 @@
-package com.bieganski;
+package com.bieganski.board;
 
 import java.io.*;
 import java.net.URL;

@@ -2,19 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5856099a-d3c5-4520-8f90-c45a0100c6e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bieganski/BoardReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/board.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/IsThisBoardLegal.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/board.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bieganski/App.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bieganski/BoardReader.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/bieganski/AppTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/board.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bieganski/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bieganski/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bieganski/BoardReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bieganski/board/BoardReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bieganski/BoardReaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bieganski/BoardReaderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bieganski/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bieganski/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bieganski/BoardReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/bieganski/BoardReaderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/bieganski/BoardReaderTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -67,13 +62,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.BoardReaderTest">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bieganski.App" />
       <module name="IsThisBoardLegal" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bieganski.*" />
+          <option name="PATTERN" value="com.bieganski.enums.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,7 +80,7 @@
       <module name="IsThisBoardLegal" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bieganski.*" />
+          <option name="PATTERN" value="com.bieganski.enums.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,7 +104,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1573912439974</updated>
-      <workItem from="1573912442936" duration="2812000" />
+      <workItem from="1573912442936" duration="8436000" />
     </task>
     <servers />
   </component>
