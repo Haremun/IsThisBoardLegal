@@ -3,16 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5856099a-d3c5-4520-8f90-c45a0100c6e1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bieganski/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bieganski/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bieganski/board/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bieganski/board/Board.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bieganski/board/CharConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bieganski/board/CharConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/bieganski/BoardParserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bieganski/board/BoardParserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/bieganski/BoardReaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bieganski/board/BoardReaderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/bieganski/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bieganski/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bieganski/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bieganski/App.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/bieganski/board/CharConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bieganski/board/CharConverter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/bieganski/BoardParserTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/bieganski/BoardReaderTest.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,8 +37,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/bieganski/testng.xml" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.applicationServers" />
   </component>
@@ -70,7 +62,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.AllTests">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bieganski.App" />
       <module name="IsThisBoardLegal" />
@@ -116,7 +108,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1573912439974</updated>
-      <workItem from="1573912442936" duration="16595000" />
+      <workItem from="1573912442936" duration="17299000" />
     </task>
     <servers />
   </component>
