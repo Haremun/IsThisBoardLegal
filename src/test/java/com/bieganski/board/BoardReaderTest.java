@@ -1,4 +1,4 @@
-package com.bieganski;
+package com.bieganski.board;
 
 import com.bieganski.board.BoardReader;
 import org.testng.annotations.BeforeClass;

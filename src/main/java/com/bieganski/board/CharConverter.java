@@ -2,7 +2,7 @@ package com.bieganski.board;
 
 class CharConverter {
     static int getIndexOfLetterInAlphabet(char letter) {
-        if (Character.isLetter(letter) || letter < 64)
+        if (Character.isLetter(letter) && letter < 64)
             return letter - 64; //ASCII
         else
             throw new IllegalArgumentException("Argument isn't letter!");

@@ -11,9 +11,8 @@ public class App
     public static void main( String[] args )
     {
         BoardReader boardReader = new BoardReader();
-        List<String> lines = boardReader.readFileToList("board.txt");
 
-        BoardParser boardParser = new BoardParser(lines);
+        BoardParser boardParser = new BoardParser(boardReader.readFileToList("board.txt"));
         boardParser.parse();
         Board board = boardParser.getBoard();
         board.showBoard();

@@ -10,7 +10,7 @@ public class Board {
     private Figure[][] board;
     private ColorFigure currentColor;
 
-    Board(List<Figure> figures, ColorFigure currentColor){
+    Board(List<Figure> figures, ColorFigure currentColor) {
         board = new Figure[8][8];
         for (Figure[] row :
                 board) {
@@ -29,7 +29,7 @@ public class Board {
         for (Figure[] row : board) {
             for (Figure figure : row) {
                 if (figure != null)
-                System.out.print(figure.getFigureSymbolWithColor() + " ");
+                    System.out.print(figure.getFigureSymbolWithColor() + " ");
                 else
                     System.out.print("__ ");
             }

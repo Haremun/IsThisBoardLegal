@@ -1,8 +1,9 @@
 <suite name="My test suite">
     <test name="testing">
         <classes>
-            <class name="com.bieganski.BoardReaderTest" />
-            <class name="com.bieganski.BoardParserTest" />
+            <class name="com.bieganski.board.BoardReaderTest" />
+            <class name="com.bieganski.board.BoardParserTest" />
+            <class name="com.bieganski.board.CharConverterTest" />
         </classes>
     </test>
 </suite>
