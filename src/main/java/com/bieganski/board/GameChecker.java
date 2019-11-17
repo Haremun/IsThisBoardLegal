@@ -15,8 +15,18 @@ public class GameChecker {
                 board.getFigures()) {
             for (FieldCoordinates coordinates :
                     figure.checkCollision()) {
-                if (!(coordinates.getRow() < 0 || coordinates.getRow() > 7) && !(coordinates.getColumn() < 0 || coordinates.getColumn() > 7))
-                    board.getFields()[coordinates.getRow()][coordinates.getColumn()].addFigureThatCanAttackThisField(figure);
+                if (!(coordinates.getRow() < 0 || coordinates.getRow() > 7) && !(coordinates.getColumn() < 0 || coordinates.getColumn() > 7)) {
+                    Field field = board.getFields()[coordinates.getRow()][coordinates.getColumn()];
+                    if (field.getFigureOnThisField() != null){
+                        if (field.getFigureOnThisField().getColorFigure() != figure.getColorFigure())
+                            field.addFigureThatCanAttackThisField(figure);
+                    } else {
+                        field.addFigureThatCanAttackThisField(figure);
+                    }
+
+
+                }
+
             }
         }
     }

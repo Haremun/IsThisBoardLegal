@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="0.412" tests="27" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="0.42" tests="27" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="13"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="PL"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-13.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\Kamil\AppData\Local\Temp\surefire1766579782597893696\surefirebooter14192047834687423262.jar C:\Users\Kamil\AppData\Local\Temp\surefire1766579782597893696 2019-11-17T21-12-47_376-jvmRun1 surefire16270967666947960936tmp surefire_01642205005244879442tmp"/>
+    <property name="sun.java.command" value="C:\Users\Kamil\AppData\Local\Temp\surefire9732465427586106525\surefirebooter3754499419164183085.jar C:\Users\Kamil\AppData\Local\Temp\surefire9732465427586106525 2019-11-17T21-24-16_266-jvmRun1 surefire5956321246688062547tmp surefire_017605622130463982141tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\IsThisBoardLegal\target\test-classes;D:\IsThisBoardLegal\target\classes;C:\Users\Kamil\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\Kamil\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Kamil\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Kamil\AppData\Local\Temp\surefire1766579782597893696\surefirebooter14192047834687423262.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Kamil\AppData\Local\Temp\surefire9732465427586106525\surefirebooter3754499419164183085.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="13.0.1+9"/>
@@ -57,12 +57,12 @@
   </properties>
   <testcase name="parse_ThrowsExceptionWhenNull" classname="com.bieganski.board.BoardParserTest" time="0.002"/>
   <testcase name="parse_WrongLettersInFile" classname="com.bieganski.board.BoardParserTest" time="0"/>
-  <testcase name="readFileToList_LoadProperFile" classname="com.bieganski.board.BoardReaderTest" time="0.002"/>
+  <testcase name="readFileToList_LoadProperFile" classname="com.bieganski.board.BoardReaderTest" time="0.003"/>
   <testcase name="readFileToList_ThrowsExceptionWhenArgumentIsNull" classname="com.bieganski.board.BoardReaderTest" time="0"/>
-  <testcase name="readFileToList_ThrowsExceptionWhenFileNameIsBad" classname="com.bieganski.board.BoardReaderTest" time="0.001"/>
-  <testcase name="redFileToList_ShouldNotBeNull" classname="com.bieganski.board.BoardReaderTest" time="0"/>
+  <testcase name="readFileToList_ThrowsExceptionWhenFileNameIsBad" classname="com.bieganski.board.BoardReaderTest" time="0"/>
+  <testcase name="redFileToList_ShouldNotBeNull" classname="com.bieganski.board.BoardReaderTest" time="0.001"/>
   <testcase name="getFields_ShouldThrowException" classname="com.bieganski.board.BoardTest" time="0.001"/>
-  <testcase name="convertCharNumberToInt_FailWhenArgumentIsNotNumber" classname="com.bieganski.board.CharConverterTest" time="0"/>
+  <testcase name="convertCharNumberToInt_FailWhenArgumentIsNotNumber" classname="com.bieganski.board.CharConverterTest" time="0.001"/>
   <testcase name="convertCharNumberToInt_ProperValue" classname="com.bieganski.board.CharConverterTest" time="0"/>
   <testcase name="convertCharNumberToInt_WrongValue" classname="com.bieganski.board.CharConverterTest" time="0.001"/>
   <testcase name="getIndexOfLetterInAlphabet_FailWhenArgumentIsNotLetter" classname="com.bieganski.board.CharConverterTest" time="0"/>
@@ -75,8 +75,8 @@
   <testcase name="getFieldCoordinates_getWrongRowValue" classname="com.bieganski.board.FieldCoordinatesTest" time="0"/>
   <testcase name="setColumnValue_setProperColumnValue" classname="com.bieganski.board.FieldCoordinatesTest" time="0"/>
   <testcase name="setRowValue_setProperRowValue" classname="com.bieganski.board.FieldCoordinatesTest" time="0"/>
-  <testcase name="toString_ValueCanNotBe_Null" classname="com.bieganski.board.FieldCoordinatesTest" time="0"/>
-  <testcase name="getFigureOnThisField_ShouldReturnNull" classname="com.bieganski.board.FieldTest" time="0.001"/>
+  <testcase name="toString_ValueCanNotBe_Null" classname="com.bieganski.board.FieldCoordinatesTest" time="0.001"/>
+  <testcase name="getFigureOnThisField_ShouldReturnNull" classname="com.bieganski.board.FieldTest" time="0"/>
   <testcase name="getFiguresThatCanAttackThisField_CanNotReturnNull" classname="com.bieganski.board.FieldTest" time="0"/>
   <testcase name="toString_ValueCanNotBe_Null" classname="com.bieganski.board.FieldTest" time="0"/>
   <testcase name="toString_CanNotReturnNull" classname="com.bieganski.figures.FigureTest" time="0"/>

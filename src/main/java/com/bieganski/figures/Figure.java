@@ -30,7 +30,7 @@ public abstract class Figure {
         this.row = row;
     }
 
-    protected void setFigureSymbol(String figureSymbol) {
+    void setFigureSymbol(String figureSymbol) {
         this.figureSymbol = figureSymbol;
     }
 
