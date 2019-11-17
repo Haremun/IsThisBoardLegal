@@ -24,4 +24,12 @@ public class FieldCoordinates {
     public void setColumn(int column) {
         this.column = column;
     }
+
+    @Override
+    public String toString() {
+        return "FieldCoordinates{" +
+                "row=" + row +
+                ", column=" + column +
+                '}';
+    }
 }

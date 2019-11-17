@@ -1,6 +1,5 @@
 package com.bieganski.figures;
 
-import com.bieganski.board.Field;
 import com.bieganski.board.FieldCoordinates;
 
 import java.util.ArrayList;
