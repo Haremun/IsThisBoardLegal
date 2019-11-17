@@ -15,7 +15,7 @@ public class BoardReader {
 
         ClassLoader classLoader = getClass().getClassLoader();
         URL resource = classLoader.getResource(fileName); //get File URL
-
+        //System.out.println(resource.toString());
         if (resource != null)
             try {
                 File file = new File(resource.getFile()); //loading file

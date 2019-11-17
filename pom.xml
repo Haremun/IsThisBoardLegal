@@ -37,11 +37,21 @@
           <artifactId>maven-clean-plugin</artifactId>
           <version>3.1.0</version>
         </plugin>
+
         <!-- default lifecycle, jar packaging: see https://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_jar_packaging -->
         <plugin>
           <artifactId>maven-resources-plugin</artifactId>
           <version>3.0.2</version>
+<!--          <configuration>-->
+<!--            <outputDirectory>output-resources</outputDirectory>-->
+<!--            <resources>-->
+<!--              <resource>-->
+<!--                <directory>resources</directory>-->
+<!--              </resource>-->
+<!--            </resources>-->
+<!--          </configuration>-->
         </plugin>
+
         <plugin>
           <artifactId>maven-compiler-plugin</artifactId>
           <version>3.8.0</version>
@@ -81,5 +91,13 @@
         </plugin>
       </plugins>
     </pluginManagement>
+    <resources>
+      <resource>
+        <directory>${basedir}/src/main/resources</directory>
+        <includes>
+          <include>**/*</include>
+        </includes>
+      </resource>
+    </resources>
   </build>
 </project>

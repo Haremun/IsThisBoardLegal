@@ -1,6 +1,7 @@
 package com.bieganski.board;
 
 import com.bieganski.board.BoardReader;
+import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -24,7 +25,11 @@ public class BoardReaderTest {
 
     @Test
     void readFileToList_LoadProperFile() {
-        boardReader.readFileToList("board.txt");
+        Assert.assertFalse(boardReader.readFileToList("board.txt").isEmpty());
+    }
+    @Test
+    void redFileToList_ShouldNotBeNull(){
+        Assert.assertNotNull(boardReader.readFileToList("board.txt"));
     }
 
 }

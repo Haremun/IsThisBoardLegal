@@ -8,13 +8,24 @@
   <component name="ChangeListManager">
     <list default="true" id="5856099a-d3c5-4520-8f90-c45a0100c6e1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bieganski/figures/KnightFigure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bieganski/figures/KnightFigure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/IsThisBoardLegal_jar/IsThisBoardLegal.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/IsThisBoardLegal_jar/IsThisBoardLegal.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bieganski/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bieganski/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bieganski/board/BoardReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bieganski/board/BoardReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bieganski/board/Field.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bieganski/board/Field.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bieganski/board/BoardReaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bieganski/board/BoardReaderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bieganski/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bieganski/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bieganski/board/Field.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bieganski/board/Field.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/bieganski/board/BoardReaderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/bieganski/board/BoardReaderTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="294" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -41,9 +52,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/bieganski/testng.xml" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.applicationServers" />
   </component>
   <component name="RecentsManager">
@@ -97,8 +108,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.bieganski" type="TestNG" nameIsGenerated="true">
+      <module name="IsThisBoardLegal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bieganski.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bieganski" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.App" />
+      <item itemvalue="TestNG.com.bieganski" />
       <item itemvalue="TestNG.AllTests" />
     </list>
   </component>
@@ -113,7 +141,7 @@
       <option name="presentableId" value="Default" />
       <updated>1573912439974</updated>
       <workItem from="1573912442936" duration="19927000" />
-      <workItem from="1573977718556" duration="8934000" />
+      <workItem from="1573977718556" duration="14300000" />
     </task>
     <servers />
   </component>
@@ -132,5 +160,13 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/IsThisBoardLegal$com_bieganski.ic" NAME="com.bieganski Coverage Results" MODIFIED="1573991299781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.bieganski.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/IsThisBoardLegal$App.ic" NAME="App Coverage Results" MODIFIED="1573991161937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.bieganski.enums.*</FILTER>
+    </SUITE>
   </component>
 </project>

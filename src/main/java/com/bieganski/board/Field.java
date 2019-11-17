@@ -8,7 +8,6 @@ import java.util.List;
 public class Field {
     private Figure figureOnThisField;
     private List<Figure> figuresThatCanAttackThisField;
-    private boolean underAttack = false;
 
     Field() {
         figuresThatCanAttackThisField = new ArrayList<>();
@@ -28,13 +27,15 @@ public class Field {
 
     void addFigureThatCanAttackThisField(Figure figureThatCanAttackThisField) {
         this.figuresThatCanAttackThisField.add(figureThatCanAttackThisField);
-        underAttack = true;
     }
 
     @Override
     public String toString() {
         if (!figuresThatCanAttackThisField.isEmpty()) {
-            return String.format("%02d ", figuresThatCanAttackThisField.size());
+            if (figureOnThisField != null)
+                return ">" + figureOnThisField.getFigureSymbolWithColor();
+            else
+                return String.format("%02d ", figuresThatCanAttackThisField.size());
         }
         if (figureOnThisField == null)
             return "__ ";
