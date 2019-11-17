@@ -8,9 +8,13 @@ import java.util.Scanner;
 
 public class GameThread extends Thread implements BoardCheckingListener, BoardLoadListener {
 
+    private boolean answer;
+    private long computerTime;
+
     @Override
     public void run() {
         System.out.println("New game: ");
+        answer = false;
 
         BoardLoadThread boardLoadThread = new BoardLoadThread(this, "board.txt");
         boardLoadThread.start();
@@ -22,18 +26,26 @@ public class GameThread extends Thread implements BoardCheckingListener, BoardLo
         stopwatch.startMeasure();
         String userInput = in.nextLine();
         stopwatch.stopMeasure();
+
+        if (userInput.equals("Y"))
+            if (answer)
+                System.out.println("You are right, board is legal");
+            else
+                System.out.println("Wrong, board is illegal");
+        else {
+            if (answer)
+                System.out.println("You are wrong, board is legal");
+            else
+                System.out.println("You are right, board is illegal");
+        }
         System.out.println("Your time: " + stopwatch);
-
-
-        //boardCheckingThread.start();
+        System.out.println("Computer time: " + computerTime + " ms");
     }
 
     @Override
-    public void onBoardChecked(boolean legal) {
-        if (legal)
-            System.out.println("Board is legal");
-        else
-            System.out.println("Board is illegal");
+    public void onBoardChecked(boolean legal, long time) {
+        answer = legal;
+        computerTime = time;
     }
 
     @Override

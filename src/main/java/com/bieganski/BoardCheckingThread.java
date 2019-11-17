@@ -24,6 +24,6 @@ public class BoardCheckingThread extends Thread {
         if (!gameChecker.isKingLegal())
             result = false;
         stopwatch.stopMeasure();
-        listener.onBoardChecked(result);
+        listener.onBoardChecked(result, stopwatch.getTimeInMili());
     }
 }

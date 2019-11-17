@@ -5,6 +5,7 @@ import java.util.concurrent.TimeUnit;
 public class Stopwatch {
     private long startTimeInNano;
     private long stopTimeInNano;
+    private long timeInNano;
 
     public Stopwatch() {
     }
@@ -15,10 +16,18 @@ public class Stopwatch {
 
     public void stopMeasure() {
         stopTimeInNano = System.nanoTime();
+        timeInNano = stopTimeInNano - startTimeInNano;
+    }
+
+    public long getTimeInNano() {
+        return timeInNano;
+    }
+    public long getTimeInMili(){
+        return TimeUnit.NANOSECONDS.toMillis(timeInNano);
     }
 
     @Override
     public String toString() {
-        return TimeUnit.NANOSECONDS.toSeconds(stopTimeInNano - startTimeInNano) + " sec";
+        return TimeUnit.NANOSECONDS.toSeconds(timeInNano) + " sec";
     }
 }

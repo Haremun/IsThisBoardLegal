@@ -1,5 +1,5 @@
 package com.bieganski.listeners;
 
 public interface BoardCheckingListener {
-    void onBoardChecked(boolean legal);
+    void onBoardChecked(boolean legal, long time);
 }
