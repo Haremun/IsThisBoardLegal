@@ -8,10 +8,45 @@
   <component name="ChangeListManager">
     <list default="true" id="5856099a-d3c5-4520-8f90-c45a0100c6e1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/IsThisBoardLegal_jar/IsThisBoardLegal.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/IsThisBoardLegal_jar/IsThisBoardLegal.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bieganski/BoardLoadThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bieganski/BoardLoadThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bieganski/GameThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bieganski/GameThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bieganski/Stopwatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bieganski/Stopwatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bieganski/UserAnswerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bieganski/UserAnswerThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bieganski/board/BoardParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bieganski/board/BoardParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bieganski/board/BoardReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bieganski/board/BoardReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bieganski/board/BoardReaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bieganski/board/BoardReaderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/IsThisBoardLegal.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bieganski/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bieganski/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bieganski/BoardCheckingThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bieganski/BoardCheckingThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bieganski/BoardLoadThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bieganski/BoardLoadThread.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/bieganski/GameThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bieganski/GameThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bieganski/IllegalMoves.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bieganski/IllegalMoves.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/bieganski/Stopwatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bieganski/Stopwatch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bieganski/UserAnswerThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bieganski/UserAnswerThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bieganski/board/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bieganski/board/Board.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bieganski/board/BoardParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bieganski/board/BoardParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bieganski/board/BoardReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bieganski/board/BoardReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bieganski/board/CharConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bieganski/board/CharConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bieganski/board/Field.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bieganski/board/Field.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bieganski/board/FieldCoordinates.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bieganski/board/FieldCoordinates.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bieganski/board/GameChecker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bieganski/board/GameChecker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bieganski/enums/ColorFigure.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bieganski/enums/ColorFigure.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bieganski/figures/Figure.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bieganski/figures/Figure.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bieganski/figures/KingFigure.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bieganski/figures/KingFigure.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bieganski/figures/KnightFigure.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bieganski/figures/KnightFigure.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bieganski/listeners/BoardCheckingListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bieganski/listeners/BoardCheckingListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bieganski/listeners/BoardLoadListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bieganski/listeners/BoardLoadListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bieganski/listeners/UserAnswerListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bieganski/listeners/UserAnswerListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/IsThisBoardLegal.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/bieganski/board/BoardParserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/bieganski/board/BoardParserTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/bieganski/board/BoardReaderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/bieganski/board/BoardReaderTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/bieganski/board/CharConverterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/bieganski/board/CharConverterTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/bieganski/board/FieldCoordinatesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/bieganski/board/FieldCoordinatesTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/bieganski/board/FieldTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/bieganski/board/FieldTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/bieganski/figures/FigureTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/bieganski/figures/FigureTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/bieganski/figures/KingFigureTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/bieganski/figures/KingFigureTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/bieganski/figures/KnightTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/bieganski/figures/KnightTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +83,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/bieganski/testng.xml" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.applicationServers" />
@@ -59,6 +94,7 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\IsThisBoardLegal\src\main\resources" />
+      <recent name="D:\IsThisBoardLegal\src\main\resources\board" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -138,7 +174,7 @@
       <updated>1573912439974</updated>
       <workItem from="1573912442936" duration="19927000" />
       <workItem from="1573977718556" duration="24297000" />
-      <workItem from="1574007675357" duration="4148000" />
+      <workItem from="1574007675357" duration="8331000" />
     </task>
     <servers />
   </component>
@@ -162,7 +198,7 @@
     <SUITE FILE_PATH="coverage/IsThisBoardLegal$com_bieganski.ic" NAME="com.bieganski Coverage Results" MODIFIED="1573991299781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.bieganski.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/IsThisBoardLegal$AllTests.ic" NAME="AllTests Coverage Results" MODIFIED="1573999067657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/IsThisBoardLegal$AllTests.ic" NAME="AllTests Coverage Results" MODIFIED="1574015014001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/IsThisBoardLegal$App.ic" NAME="App Coverage Results" MODIFIED="1573991161937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.bieganski.enums.*</FILTER>
     </SUITE>

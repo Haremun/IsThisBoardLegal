@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
+              <span class="suite-name border-passed">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Surefire_suite" class="navigator-link ">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Surefire_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Surefire_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Surefire_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Surefire_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Surefire_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Surefire_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">26 methods,   26 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.bieganski.figures.KnightTest" class="method navigator-link" hash-for-method="checkCollision_CanNotReturnNull">checkCollision_CanNotReturnNull</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.bieganski.figures.KingFigureTest" class="method navigator-link" hash-for-method="checkCollision_CanNotReturnNull">checkCollision_CanNotReturnNull</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.bieganski.board.CharConverterTest" class="method navigator-link" hash-for-method="convertCharNumberToInt_FailWhenArgumentIsNotNumber">convertCharNumberToInt_FailWhenArgumentIsNotNumber</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.bieganski.board.CharConverterTest" class="method navigator-link" hash-for-method="convertCharNumberToInt_ProperValue">convertCharNumberToInt_ProperValue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.bieganski.board.CharConverterTest" class="method navigator-link" hash-for-method="convertCharNumberToInt_WrongValue">convertCharNumberToInt_WrongValue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.bieganski.board.FieldCoordinatesTest" class="method navigator-link" hash-for-method="getFieldCoordinates_getProperColumnValue">getFieldCoordinates_getProperColumnValue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.bieganski.board.FieldCoordinatesTest" class="method navigator-link" hash-for-method="getFieldCoordinates_getProperRowValue">getFieldCoordinates_getProperRowValue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.bieganski.board.FieldCoordinatesTest" class="method navigator-link" hash-for-method="getFieldCoordinates_getWrongColumnValue">getFieldCoordinates_getWrongColumnValue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.bieganski.board.FieldCoordinatesTest" class="method navigator-link" hash-for-method="getFieldCoordinates_getWrongRowValue">getFieldCoordinates_getWrongRowValue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.bieganski.board.FieldTest" class="method navigator-link" hash-for-method="getFigureOnThisField_ShouldReturnNull">getFigureOnThisField_ShouldReturnNull</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.bieganski.board.FieldTest" class="method navigator-link" hash-for-method="getFiguresThatCanAttackThisField_CanNotReturnNull">getFiguresThatCanAttackThisField_CanNotReturnNull</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.bieganski.board.CharConverterTest" class="method navigator-link" hash-for-method="getIndexOfLetterInAlphabet_FailWhenArgumentIsNotLetter">getIndexOfLetterInAlphabet_FailWhenArgumentIsNotLetter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.bieganski.board.CharConverterTest" class="method navigator-link" hash-for-method="getIndexOfLetterInAlphabet_LowerCaseShouldWork">getIndexOfLetterInAlphabet_LowerCaseShouldWork</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.bieganski.board.CharConverterTest" class="method navigator-link" hash-for-method="getIndexOfLetterInAlphabet_ProperValue">getIndexOfLetterInAlphabet_ProperValue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.bieganski.board.CharConverterTest" class="method navigator-link" hash-for-method="getIndexOfLetterInAlphabet_WrongValue">getIndexOfLetterInAlphabet_WrongValue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.bieganski.board.BoardParserTest" class="method navigator-link" hash-for-method="parse_ThrowsExceptionWhenNull">parse_ThrowsExceptionWhenNull</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.bieganski.board.BoardParserTest" class="method navigator-link" hash-for-method="parse_WrongLettersInFile">parse_WrongLettersInFile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.bieganski.board.BoardReaderTest" class="method navigator-link" hash-for-method="readFileToList_LoadProperFile">readFileToList_LoadProperFile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.bieganski.board.BoardReaderTest" class="method navigator-link" hash-for-method="readFileToList_ThrowsExceptionWhenArgumentIsNull">readFileToList_ThrowsExceptionWhenArgumentIsNull</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.bieganski.board.BoardReaderTest" class="method navigator-link" hash-for-method="readFileToList_ThrowsExceptionWhenFileNameIsBad">readFileToList_ThrowsExceptionWhenFileNameIsBad</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.bieganski.board.BoardReaderTest" class="method navigator-link" hash-for-method="redFileToList_ShouldNotBeNull">redFileToList_ShouldNotBeNull</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.bieganski.board.FieldCoordinatesTest" class="method navigator-link" hash-for-method="setColumnValue_setProperColumnValue">setColumnValue_setProperColumnValue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.bieganski.board.FieldCoordinatesTest" class="method navigator-link" hash-for-method="setRowValue_setProperRowValue">setRowValue_setProperRowValue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.bieganski.figures.FigureTest" class="method navigator-link" hash-for-method="toString_CanNotReturnNull">toString_CanNotReturnNull</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.bieganski.board.FieldTest" class="method navigator-link" hash-for-method="toString_ValueCanNotBe_Null">toString_ValueCanNotBe_Null</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.bieganski.board.FieldCoordinatesTest" class="method navigator-link" hash-for-method="toString_ValueCanNotBe_Null">toString_ValueCanNotBe_Null</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bieganski.board.BoardReaderTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="readFileToList_LoadProperFile">
+                  </a> <!-- readFileToList_LoadProperFile -->
+                  <span class="method-name">readFileToList_LoadProperFile</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="readFileToList_ThrowsExceptionWhenArgumentIsNull">
+                  </a> <!-- readFileToList_ThrowsExceptionWhenArgumentIsNull -->
+                  <span class="method-name">readFileToList_ThrowsExceptionWhenArgumentIsNull</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="readFileToList_ThrowsExceptionWhenFileNameIsBad">
+                  </a> <!-- readFileToList_ThrowsExceptionWhenFileNameIsBad -->
+                  <span class="method-name">readFileToList_ThrowsExceptionWhenFileNameIsBad</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="redFileToList_ShouldNotBeNull">
+                  </a> <!-- redFileToList_ShouldNotBeNull -->
+                  <span class="method-name">redFileToList_ShouldNotBeNull</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bieganski.figures.KingFigureTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkCollision_CanNotReturnNull">
+                  </a> <!-- checkCollision_CanNotReturnNull -->
+                  <span class="method-name">checkCollision_CanNotReturnNull</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bieganski.board.FieldCoordinatesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getFieldCoordinates_getProperColumnValue">
+                  </a> <!-- getFieldCoordinates_getProperColumnValue -->
+                  <span class="method-name">getFieldCoordinates_getProperColumnValue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getFieldCoordinates_getProperRowValue">
+                  </a> <!-- getFieldCoordinates_getProperRowValue -->
+                  <span class="method-name">getFieldCoordinates_getProperRowValue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getFieldCoordinates_getWrongColumnValue">
+                  </a> <!-- getFieldCoordinates_getWrongColumnValue -->
+                  <span class="method-name">getFieldCoordinates_getWrongColumnValue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getFieldCoordinates_getWrongRowValue">
+                  </a> <!-- getFieldCoordinates_getWrongRowValue -->
+                  <span class="method-name">getFieldCoordinates_getWrongRowValue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setColumnValue_setProperColumnValue">
+                  </a> <!-- setColumnValue_setProperColumnValue -->
+                  <span class="method-name">setColumnValue_setProperColumnValue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setRowValue_setProperRowValue">
+                  </a> <!-- setRowValue_setProperRowValue -->
+                  <span class="method-name">setRowValue_setProperRowValue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="toString_ValueCanNotBe_Null">
+                  </a> <!-- toString_ValueCanNotBe_Null -->
+                  <span class="method-name">toString_ValueCanNotBe_Null</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bieganski.figures.KnightTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkCollision_CanNotReturnNull">
+                  </a> <!-- checkCollision_CanNotReturnNull -->
+                  <span class="method-name">checkCollision_CanNotReturnNull</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bieganski.figures.FigureTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="toString_CanNotReturnNull">
+                  </a> <!-- toString_CanNotReturnNull -->
+                  <span class="method-name">toString_CanNotReturnNull</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bieganski.board.FieldTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getFigureOnThisField_ShouldReturnNull">
+                  </a> <!-- getFigureOnThisField_ShouldReturnNull -->
+                  <span class="method-name">getFigureOnThisField_ShouldReturnNull</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getFiguresThatCanAttackThisField_CanNotReturnNull">
+                  </a> <!-- getFiguresThatCanAttackThisField_CanNotReturnNull -->
+                  <span class="method-name">getFiguresThatCanAttackThisField_CanNotReturnNull</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="toString_ValueCanNotBe_Null">
+                  </a> <!-- toString_ValueCanNotBe_Null -->
+                  <span class="method-name">toString_ValueCanNotBe_Null</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bieganski.board.BoardParserTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="parse_ThrowsExceptionWhenNull">
+                  </a> <!-- parse_ThrowsExceptionWhenNull -->
+                  <span class="method-name">parse_ThrowsExceptionWhenNull</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="parse_WrongLettersInFile">
+                  </a> <!-- parse_WrongLettersInFile -->
+                  <span class="method-name">parse_WrongLettersInFile</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bieganski.board.CharConverterTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="convertCharNumberToInt_FailWhenArgumentIsNotNumber">
+                  </a> <!-- convertCharNumberToInt_FailWhenArgumentIsNotNumber -->
+                  <span class="method-name">convertCharNumberToInt_FailWhenArgumentIsNotNumber</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="convertCharNumberToInt_ProperValue">
+                  </a> <!-- convertCharNumberToInt_ProperValue -->
+                  <span class="method-name">convertCharNumberToInt_ProperValue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="convertCharNumberToInt_WrongValue">
+                  </a> <!-- convertCharNumberToInt_WrongValue -->
+                  <span class="method-name">convertCharNumberToInt_WrongValue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getIndexOfLetterInAlphabet_FailWhenArgumentIsNotLetter">
+                  </a> <!-- getIndexOfLetterInAlphabet_FailWhenArgumentIsNotLetter -->
+                  <span class="method-name">getIndexOfLetterInAlphabet_FailWhenArgumentIsNotLetter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getIndexOfLetterInAlphabet_LowerCaseShouldWork">
+                  </a> <!-- getIndexOfLetterInAlphabet_LowerCaseShouldWork -->
+                  <span class="method-name">getIndexOfLetterInAlphabet_LowerCaseShouldWork</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getIndexOfLetterInAlphabet_ProperValue">
+                  </a> <!-- getIndexOfLetterInAlphabet_ProperValue -->
+                  <span class="method-name">getIndexOfLetterInAlphabet_ProperValue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getIndexOfLetterInAlphabet_WrongValue">
+                  </a> <!-- getIndexOfLetterInAlphabet_WrongValue -->
+                  <span class="method-name">getIndexOfLetterInAlphabet_WrongValue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.bieganski.board.BoardParserTest&quot;/&gt;
+      &lt;class name=&quot;com.bieganski.board.BoardReaderTest&quot;/&gt;
+      &lt;class name=&quot;com.bieganski.board.CharConverterTest&quot;/&gt;
+      &lt;class name=&quot;com.bieganski.board.FieldCoordinatesTest&quot;/&gt;
+      &lt;class name=&quot;com.bieganski.board.FieldTest&quot;/&gt;
+      &lt;class name=&quot;com.bieganski.figures.FigureTest&quot;/&gt;
+      &lt;class name=&quot;com.bieganski.figures.KingFigureTest&quot;/&gt;
+      &lt;class name=&quot;com.bieganski.figures.KnightTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (8 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(26);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'readFileToList_LoadProperFile')
+data.setCell(0, 2, 'com.bieganski.board.BoardReaderTest')
+data.setCell(0, 3, 2);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'getFigureOnThisField_ShouldReturnNull')
+data.setCell(1, 2, 'com.bieganski.board.FieldTest')
+data.setCell(1, 3, 1);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'parse_ThrowsExceptionWhenNull')
+data.setCell(2, 2, 'com.bieganski.board.BoardParserTest')
+data.setCell(2, 3, 1);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'convertCharNumberToInt_WrongValue')
+data.setCell(3, 2, 'com.bieganski.board.CharConverterTest')
+data.setCell(3, 3, 1);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'setRowValue_setProperRowValue')
+data.setCell(4, 2, 'com.bieganski.board.FieldCoordinatesTest')
+data.setCell(4, 3, 1);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'toString_CanNotReturnNull')
+data.setCell(5, 2, 'com.bieganski.figures.FigureTest')
+data.setCell(5, 3, 1);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'convertCharNumberToInt_FailWhenArgumentIsNotNumber')
+data.setCell(6, 2, 'com.bieganski.board.CharConverterTest')
+data.setCell(6, 3, 1);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'getFieldCoordinates_getProperRowValue')
+data.setCell(7, 2, 'com.bieganski.board.FieldCoordinatesTest')
+data.setCell(7, 3, 1);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'getIndexOfLetterInAlphabet_ProperValue')
+data.setCell(8, 2, 'com.bieganski.board.CharConverterTest')
+data.setCell(8, 3, 0);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'redFileToList_ShouldNotBeNull')
+data.setCell(9, 2, 'com.bieganski.board.BoardReaderTest')
+data.setCell(9, 3, 0);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'getIndexOfLetterInAlphabet_FailWhenArgumentIsNotLetter')
+data.setCell(10, 2, 'com.bieganski.board.CharConverterTest')
+data.setCell(10, 3, 0);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'convertCharNumberToInt_ProperValue')
+data.setCell(11, 2, 'com.bieganski.board.CharConverterTest')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'parse_WrongLettersInFile')
+data.setCell(12, 2, 'com.bieganski.board.BoardParserTest')
+data.setCell(12, 3, 0);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'getFiguresThatCanAttackThisField_CanNotReturnNull')
+data.setCell(13, 2, 'com.bieganski.board.FieldTest')
+data.setCell(13, 3, 0);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'getIndexOfLetterInAlphabet_WrongValue')
+data.setCell(14, 2, 'com.bieganski.board.CharConverterTest')
+data.setCell(14, 3, 0);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'setColumnValue_setProperColumnValue')
+data.setCell(15, 2, 'com.bieganski.board.FieldCoordinatesTest')
+data.setCell(15, 3, 0);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'readFileToList_ThrowsExceptionWhenArgumentIsNull')
+data.setCell(16, 2, 'com.bieganski.board.BoardReaderTest')
+data.setCell(16, 3, 0);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'checkCollision_CanNotReturnNull')
+data.setCell(17, 2, 'com.bieganski.figures.KnightTest')
+data.setCell(17, 3, 0);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'toString_ValueCanNotBe_Null')
+data.setCell(18, 2, 'com.bieganski.board.FieldTest')
+data.setCell(18, 3, 0);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'getIndexOfLetterInAlphabet_LowerCaseShouldWork')
+data.setCell(19, 2, 'com.bieganski.board.CharConverterTest')
+data.setCell(19, 3, 0);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'getFieldCoordinates_getWrongColumnValue')
+data.setCell(20, 2, 'com.bieganski.board.FieldCoordinatesTest')
+data.setCell(20, 3, 0);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'readFileToList_ThrowsExceptionWhenFileNameIsBad')
+data.setCell(21, 2, 'com.bieganski.board.BoardReaderTest')
+data.setCell(21, 3, 0);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'checkCollision_CanNotReturnNull')
+data.setCell(22, 2, 'com.bieganski.figures.KingFigureTest')
+data.setCell(22, 3, 0);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'getFieldCoordinates_getWrongRowValue')
+data.setCell(23, 2, 'com.bieganski.board.FieldCoordinatesTest')
+data.setCell(23, 3, 0);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'toString_ValueCanNotBe_Null')
+data.setCell(24, 2, 'com.bieganski.board.FieldCoordinatesTest')
+data.setCell(24, 3, 0);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'getFieldCoordinates_getProperColumnValue')
+data.setCell(25, 2, 'com.bieganski.board.FieldCoordinatesTest')
+data.setCell(25, 3, 0);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 9 ms</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bieganski.board.BoardParserTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">parse_ThrowsExceptionWhenNull</span>
+                <span class="method-start">15 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">parse_WrongLettersInFile</span>
+                <span class="method-start">17 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bieganski.board.BoardReaderTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">18 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">readFileToList_LoadProperFile</span>
+                <span class="method-start">19 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">readFileToList_ThrowsExceptionWhenArgumentIsNull</span>
+                <span class="method-start">21 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">readFileToList_ThrowsExceptionWhenFileNameIsBad</span>
+                <span class="method-start">22 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">redFileToList_ShouldNotBeNull</span>
+                <span class="method-start">23 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bieganski.board.CharConverterTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">convertCharNumberToInt_FailWhenArgumentIsNotNumber</span>
+                <span class="method-start">23 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">convertCharNumberToInt_ProperValue</span>
+                <span class="method-start">24 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">convertCharNumberToInt_WrongValue</span>
+                <span class="method-start">24 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getIndexOfLetterInAlphabet_FailWhenArgumentIsNotLetter</span>
+                <span class="method-start">25 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getIndexOfLetterInAlphabet_LowerCaseShouldWork</span>
+                <span class="method-start">25 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getIndexOfLetterInAlphabet_ProperValue</span>
+                <span class="method-start">26 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getIndexOfLetterInAlphabet_WrongValue</span>
+                <span class="method-start">26 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bieganski.board.FieldCoordinatesTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">27 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">getFieldCoordinates_getProperColumnValue</span>
+                <span class="method-start">27 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getFieldCoordinates_getProperRowValue</span>
+                <span class="method-start">27 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getFieldCoordinates_getWrongColumnValue</span>
+                <span class="method-start">28 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getFieldCoordinates_getWrongRowValue</span>
+                <span class="method-start">28 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">setColumnValue_setProperColumnValue</span>
+                <span class="method-start">28 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">setRowValue_setProperRowValue</span>
+                <span class="method-start">28 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">toString_ValueCanNotBe_Null</span>
+                <span class="method-start">29 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bieganski.board.FieldTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getFigureOnThisField_ShouldReturnNull</span>
+                <span class="method-start">29 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getFiguresThatCanAttackThisField_CanNotReturnNull</span>
+                <span class="method-start">30 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">toString_ValueCanNotBe_Null</span>
+                <span class="method-start">30 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bieganski.figures.FigureTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">toString_CanNotReturnNull</span>
+                <span class="method-start">30 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bieganski.figures.KingFigureTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkCollision_CanNotReturnNull</span>
+                <span class="method-start">31 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bieganski.figures.KnightTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkCollision_CanNotReturnNull</span>
+                <span class="method-start">31 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

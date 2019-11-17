@@ -35,6 +35,7 @@ public class GameThread extends Thread implements BoardCheckingListener, BoardLo
         userAnswerThread.start();
 
         System.out.println(board);
+        System.out.println("Is this board legal? (Y/N)");
     }
 
     @Override

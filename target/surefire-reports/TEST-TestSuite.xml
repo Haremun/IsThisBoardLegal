@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="0.409" tests="26" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="13"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1250"/>
+    <property name="java.class.path" value="D:\IsThisBoardLegal\target\test-classes;D:\IsThisBoardLegal\target\classes;C:\Users\Kamil\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\Kamil\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Kamil\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Warsaw"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="13"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="PL"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-13.0.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\Kamil\AppData\Local\Temp\surefire8310853876997593623\surefirebooter9431627168042045787.jar C:\Users\Kamil\AppData\Local\Temp\surefire8310853876997593623 2019-11-17T19-42-54_831-jvmRun1 surefire13037876728101490881tmp surefire_011065556456006278885tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\IsThisBoardLegal\target\test-classes;D:\IsThisBoardLegal\target\classes;C:\Users\Kamil\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\Kamil\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Kamil\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Kamil"/>
+    <property name="user.language" value="pl"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2019-10-15"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-13.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\IsThisBoardLegal"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Kamil\AppData\Local\Temp\surefire8310853876997593623\surefirebooter9431627168042045787.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="13.0.1+9"/>
+    <property name="user.name" value="Kamil"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1250"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Kamil\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Kamil\AppData\Local\Temp\"/>
+    <property name="java.version" value="13.0.1"/>
+    <property name="user.dir" value="D:\IsThisBoardLegal"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-13.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\Kamil\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-13.0.1\bin;C:\Users\Kamil\Downloads\apache-maven-3.6.2\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="13.0.1+9"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="57.0"/>
+  </properties>
+  <testcase name="parse_ThrowsExceptionWhenNull" classname="com.bieganski.board.BoardParserTest" time="0.003"/>
+  <testcase name="parse_WrongLettersInFile" classname="com.bieganski.board.BoardParserTest" time="0"/>
+  <testcase name="readFileToList_LoadProperFile" classname="com.bieganski.board.BoardReaderTest" time="0.002"/>
+  <testcase name="readFileToList_ThrowsExceptionWhenArgumentIsNull" classname="com.bieganski.board.BoardReaderTest" time="0.001"/>
+  <testcase name="readFileToList_ThrowsExceptionWhenFileNameIsBad" classname="com.bieganski.board.BoardReaderTest" time="0"/>
+  <testcase name="redFileToList_ShouldNotBeNull" classname="com.bieganski.board.BoardReaderTest" time="0"/>
+  <testcase name="convertCharNumberToInt_FailWhenArgumentIsNotNumber" classname="com.bieganski.board.CharConverterTest" time="0"/>
+  <testcase name="convertCharNumberToInt_ProperValue" classname="com.bieganski.board.CharConverterTest" time="0"/>
+  <testcase name="convertCharNumberToInt_WrongValue" classname="com.bieganski.board.CharConverterTest" time="0.001"/>
+  <testcase name="getIndexOfLetterInAlphabet_FailWhenArgumentIsNotLetter" classname="com.bieganski.board.CharConverterTest" time="0"/>
+  <testcase name="getIndexOfLetterInAlphabet_LowerCaseShouldWork" classname="com.bieganski.board.CharConverterTest" time="0.001"/>
+  <testcase name="getIndexOfLetterInAlphabet_ProperValue" classname="com.bieganski.board.CharConverterTest" time="0"/>
+  <testcase name="getIndexOfLetterInAlphabet_WrongValue" classname="com.bieganski.board.CharConverterTest" time="0"/>
+  <testcase name="getFieldCoordinates_getProperColumnValue" classname="com.bieganski.board.FieldCoordinatesTest" time="0"/>
+  <testcase name="getFieldCoordinates_getProperRowValue" classname="com.bieganski.board.FieldCoordinatesTest" time="0"/>
+  <testcase name="getFieldCoordinates_getWrongColumnValue" classname="com.bieganski.board.FieldCoordinatesTest" time="0"/>
+  <testcase name="getFieldCoordinates_getWrongRowValue" classname="com.bieganski.board.FieldCoordinatesTest" time="0"/>
+  <testcase name="setColumnValue_setProperColumnValue" classname="com.bieganski.board.FieldCoordinatesTest" time="0"/>
+  <testcase name="setRowValue_setProperRowValue" classname="com.bieganski.board.FieldCoordinatesTest" time="0"/>
+  <testcase name="toString_ValueCanNotBe_Null" classname="com.bieganski.board.FieldCoordinatesTest" time="0"/>
+  <testcase name="getFigureOnThisField_ShouldReturnNull" classname="com.bieganski.board.FieldTest" time="0.001"/>
+  <testcase name="getFiguresThatCanAttackThisField_CanNotReturnNull" classname="com.bieganski.board.FieldTest" time="0"/>
+  <testcase name="toString_ValueCanNotBe_Null" classname="com.bieganski.board.FieldTest" time="0"/>
+  <testcase name="toString_CanNotReturnNull" classname="com.bieganski.figures.FigureTest" time="0.001"/>
+  <testcase name="checkCollision_CanNotReturnNull" classname="com.bieganski.figures.KingFigureTest" time="0"/>
+  <testcase name="checkCollision_CanNotReturnNull" classname="com.bieganski.figures.KnightTest" time="0"/>
+</testsuite>

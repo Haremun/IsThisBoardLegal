@@ -14,7 +14,6 @@ public class UserAnswerThread extends Thread {
 
     @Override
     public void run() {
-        System.out.println("Is this board legal? (Y/N)");
 
         Stopwatch stopwatch = new Stopwatch();
         Scanner in = new Scanner(System.in);

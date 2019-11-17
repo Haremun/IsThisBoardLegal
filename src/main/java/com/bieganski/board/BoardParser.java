@@ -53,6 +53,9 @@ public class BoardParser {
     }
 
     public Board getBoard() {
-        return new Board(figures, currentColor);
+        if (!lines.isEmpty())
+            return new Board(figures, currentColor);
+        else
+            return null;
     }
 }
