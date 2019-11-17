@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="27" passed="27" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-11-17T20:07:54Z" name="Surefire suite" finished-at="2019-11-17T20:07:54Z" duration-ms="41">
+  <suite started-at="2019-11-17T20:12:49Z" name="Surefire suite" finished-at="2019-11-17T20:12:49Z" duration-ms="39">
     <groups>
     </groups>
-    <test started-at="2019-11-17T20:07:54Z" name="Surefire test" finished-at="2019-11-17T20:07:54Z" duration-ms="41">
+    <test started-at="2019-11-17T20:12:49Z" name="Surefire test" finished-at="2019-11-17T20:12:49Z" duration-ms="39">
       <class name="com.bieganski.board.BoardParserTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.bieganski.board.BoardParserTest@4e718207]" started-at="2019-11-17T20:07:54Z" name="setUp" finished-at="2019-11-17T20:07:54Z" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.bieganski.board.BoardParserTest@4e718207]" started-at="2019-11-17T20:12:49Z" name="setUp" finished-at="2019-11-17T20:12:49Z" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="parse_ThrowsExceptionWhenNull()[pri:0, instance:com.bieganski.board.BoardParserTest@4e718207]" started-at="2019-11-17T20:07:54Z" name="parse_ThrowsExceptionWhenNull" finished-at="2019-11-17T20:07:54Z" duration-ms="2" status="PASS">
+        <test-method signature="parse_ThrowsExceptionWhenNull()[pri:0, instance:com.bieganski.board.BoardParserTest@4e718207]" started-at="2019-11-17T20:12:49Z" name="parse_ThrowsExceptionWhenNull" finished-at="2019-11-17T20:12:49Z" duration-ms="1" status="PASS">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[List of text lines can't be null]]>
@@ -56,7 +56,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- parse_ThrowsExceptionWhenNull -->
-        <test-method signature="parse_WrongLettersInFile()[pri:0, instance:com.bieganski.board.BoardParserTest@4e718207]" started-at="2019-11-17T20:07:54Z" name="parse_WrongLettersInFile" finished-at="2019-11-17T20:07:54Z" duration-ms="0" status="PASS">
+        <test-method signature="parse_WrongLettersInFile()[pri:0, instance:com.bieganski.board.BoardParserTest@4e718207]" started-at="2019-11-17T20:12:49Z" name="parse_WrongLettersInFile" finished-at="2019-11-17T20:12:49Z" duration-ms="0" status="PASS">
           <exception class="java.lang.IllegalArgumentException">
             <message>
               <![CDATA[Color can be only W-White or B-Black]]>
@@ -103,21 +103,21 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
         </test-method> <!-- parse_WrongLettersInFile -->
       </class> <!-- com.bieganski.board.BoardParserTest -->
       <class name="com.bieganski.figures.KingFigureTest">
-        <test-method signature="checkCollision_CanNotReturnNull()[pri:0, instance:com.bieganski.figures.KingFigureTest@c81cdd1]" started-at="2019-11-17T20:07:54Z" name="checkCollision_CanNotReturnNull" finished-at="2019-11-17T20:07:54Z" duration-ms="0" status="PASS">
+        <test-method signature="checkCollision_CanNotReturnNull()[pri:0, instance:com.bieganski.figures.KingFigureTest@c81cdd1]" started-at="2019-11-17T20:12:49Z" name="checkCollision_CanNotReturnNull" finished-at="2019-11-17T20:12:49Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkCollision_CanNotReturnNull -->
       </class> <!-- com.bieganski.figures.KingFigureTest -->
       <class name="com.bieganski.board.BoardReaderTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.bieganski.board.BoardReaderTest@1d371b2d]" started-at="2019-11-17T20:07:54Z" name="setUp" finished-at="2019-11-17T20:07:54Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.bieganski.board.BoardReaderTest@1d371b2d]" started-at="2019-11-17T20:12:49Z" name="setUp" finished-at="2019-11-17T20:12:49Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="readFileToList_LoadProperFile()[pri:0, instance:com.bieganski.board.BoardReaderTest@1d371b2d]" started-at="2019-11-17T20:07:54Z" name="readFileToList_LoadProperFile" finished-at="2019-11-17T20:07:54Z" duration-ms="2" status="PASS">
+        <test-method signature="readFileToList_LoadProperFile()[pri:0, instance:com.bieganski.board.BoardReaderTest@1d371b2d]" started-at="2019-11-17T20:12:49Z" name="readFileToList_LoadProperFile" finished-at="2019-11-17T20:12:49Z" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- readFileToList_LoadProperFile -->
-        <test-method signature="readFileToList_ThrowsExceptionWhenFileNameIsBad()[pri:0, instance:com.bieganski.board.BoardReaderTest@1d371b2d]" started-at="2019-11-17T20:07:54Z" name="readFileToList_ThrowsExceptionWhenFileNameIsBad" finished-at="2019-11-17T20:07:54Z" duration-ms="1" status="PASS">
+        <test-method signature="readFileToList_ThrowsExceptionWhenFileNameIsBad()[pri:0, instance:com.bieganski.board.BoardReaderTest@1d371b2d]" started-at="2019-11-17T20:12:49Z" name="readFileToList_ThrowsExceptionWhenFileNameIsBad" finished-at="2019-11-17T20:12:49Z" duration-ms="0" status="PASS">
           <exception class="java.lang.IllegalArgumentException">
             <message>
               <![CDATA[There is no file like: abc]]>
@@ -162,7 +162,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- readFileToList_ThrowsExceptionWhenFileNameIsBad -->
-        <test-method signature="readFileToList_ThrowsExceptionWhenArgumentIsNull()[pri:0, instance:com.bieganski.board.BoardReaderTest@1d371b2d]" started-at="2019-11-17T20:07:54Z" name="readFileToList_ThrowsExceptionWhenArgumentIsNull" finished-at="2019-11-17T20:07:54Z" duration-ms="0" status="PASS">
+        <test-method signature="readFileToList_ThrowsExceptionWhenArgumentIsNull()[pri:0, instance:com.bieganski.board.BoardReaderTest@1d371b2d]" started-at="2019-11-17T20:12:49Z" name="readFileToList_ThrowsExceptionWhenArgumentIsNull" finished-at="2019-11-17T20:12:49Z" duration-ms="0" status="PASS">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[File name can't be null!]]>
@@ -207,27 +207,19 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- readFileToList_ThrowsExceptionWhenArgumentIsNull -->
-        <test-method signature="redFileToList_ShouldNotBeNull()[pri:0, instance:com.bieganski.board.BoardReaderTest@1d371b2d]" started-at="2019-11-17T20:07:54Z" name="redFileToList_ShouldNotBeNull" finished-at="2019-11-17T20:07:54Z" duration-ms="0" status="PASS">
+        <test-method signature="redFileToList_ShouldNotBeNull()[pri:0, instance:com.bieganski.board.BoardReaderTest@1d371b2d]" started-at="2019-11-17T20:12:49Z" name="redFileToList_ShouldNotBeNull" finished-at="2019-11-17T20:12:49Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- redFileToList_ShouldNotBeNull -->
       </class> <!-- com.bieganski.board.BoardReaderTest -->
       <class name="com.bieganski.figures.FigureTest">
-        <test-method signature="toString_CanNotReturnNull()[pri:0, instance:com.bieganski.figures.FigureTest@43738a82]" started-at="2019-11-17T20:07:54Z" name="toString_CanNotReturnNull" finished-at="2019-11-17T20:07:54Z" duration-ms="0" status="PASS">
+        <test-method signature="toString_CanNotReturnNull()[pri:0, instance:com.bieganski.figures.FigureTest@43738a82]" started-at="2019-11-17T20:12:49Z" name="toString_CanNotReturnNull" finished-at="2019-11-17T20:12:49Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- toString_CanNotReturnNull -->
       </class> <!-- com.bieganski.figures.FigureTest -->
       <class name="com.bieganski.board.CharConverterTest">
-        <test-method signature="convertCharNumberToInt_ProperValue()[pri:0, instance:com.bieganski.board.CharConverterTest@13eb8acf]" started-at="2019-11-17T20:07:54Z" name="convertCharNumberToInt_ProperValue" finished-at="2019-11-17T20:07:54Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- convertCharNumberToInt_ProperValue -->
-        <test-method signature="convertCharNumberToInt_WrongValue()[pri:0, instance:com.bieganski.board.CharConverterTest@13eb8acf]" started-at="2019-11-17T20:07:54Z" name="convertCharNumberToInt_WrongValue" finished-at="2019-11-17T20:07:54Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- convertCharNumberToInt_WrongValue -->
-        <test-method signature="convertCharNumberToInt_FailWhenArgumentIsNotNumber()[pri:0, instance:com.bieganski.board.CharConverterTest@13eb8acf]" started-at="2019-11-17T20:07:54Z" name="convertCharNumberToInt_FailWhenArgumentIsNotNumber" finished-at="2019-11-17T20:07:54Z" duration-ms="0" status="PASS">
+        <test-method signature="convertCharNumberToInt_FailWhenArgumentIsNotNumber()[pri:0, instance:com.bieganski.board.CharConverterTest@13eb8acf]" started-at="2019-11-17T20:12:49Z" name="convertCharNumberToInt_FailWhenArgumentIsNotNumber" finished-at="2019-11-17T20:12:49Z" duration-ms="1" status="PASS">
           <exception class="java.lang.IllegalArgumentException">
             <message>
               <![CDATA[Argument isn't number]]>
@@ -272,7 +264,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- convertCharNumberToInt_FailWhenArgumentIsNotNumber -->
-        <test-method signature="getIndexOfLetterInAlphabet_FailWhenArgumentIsNotLetter()[pri:0, instance:com.bieganski.board.CharConverterTest@13eb8acf]" started-at="2019-11-17T20:07:54Z" name="getIndexOfLetterInAlphabet_FailWhenArgumentIsNotLetter" finished-at="2019-11-17T20:07:54Z" duration-ms="0" status="PASS">
+        <test-method signature="convertCharNumberToInt_ProperValue()[pri:0, instance:com.bieganski.board.CharConverterTest@13eb8acf]" started-at="2019-11-17T20:12:49Z" name="convertCharNumberToInt_ProperValue" finished-at="2019-11-17T20:12:49Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- convertCharNumberToInt_ProperValue -->
+        <test-method signature="convertCharNumberToInt_WrongValue()[pri:0, instance:com.bieganski.board.CharConverterTest@13eb8acf]" started-at="2019-11-17T20:12:49Z" name="convertCharNumberToInt_WrongValue" finished-at="2019-11-17T20:12:49Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- convertCharNumberToInt_WrongValue -->
+        <test-method signature="getIndexOfLetterInAlphabet_FailWhenArgumentIsNotLetter()[pri:0, instance:com.bieganski.board.CharConverterTest@13eb8acf]" started-at="2019-11-17T20:12:49Z" name="getIndexOfLetterInAlphabet_FailWhenArgumentIsNotLetter" finished-at="2019-11-17T20:12:49Z" duration-ms="0" status="PASS">
           <exception class="java.lang.IllegalArgumentException">
             <message>
               <![CDATA[Argument isn't letter!]]>
@@ -317,21 +317,21 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getIndexOfLetterInAlphabet_FailWhenArgumentIsNotLetter -->
-        <test-method signature="getIndexOfLetterInAlphabet_LowerCaseShouldWork()[pri:0, instance:com.bieganski.board.CharConverterTest@13eb8acf]" started-at="2019-11-17T20:07:54Z" name="getIndexOfLetterInAlphabet_LowerCaseShouldWork" finished-at="2019-11-17T20:07:54Z" duration-ms="0" status="PASS">
+        <test-method signature="getIndexOfLetterInAlphabet_LowerCaseShouldWork()[pri:0, instance:com.bieganski.board.CharConverterTest@13eb8acf]" started-at="2019-11-17T20:12:49Z" name="getIndexOfLetterInAlphabet_LowerCaseShouldWork" finished-at="2019-11-17T20:12:49Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getIndexOfLetterInAlphabet_LowerCaseShouldWork -->
-        <test-method signature="getIndexOfLetterInAlphabet_ProperValue()[pri:0, instance:com.bieganski.board.CharConverterTest@13eb8acf]" started-at="2019-11-17T20:07:54Z" name="getIndexOfLetterInAlphabet_ProperValue" finished-at="2019-11-17T20:07:54Z" duration-ms="0" status="PASS">
+        <test-method signature="getIndexOfLetterInAlphabet_ProperValue()[pri:0, instance:com.bieganski.board.CharConverterTest@13eb8acf]" started-at="2019-11-17T20:12:49Z" name="getIndexOfLetterInAlphabet_ProperValue" finished-at="2019-11-17T20:12:49Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getIndexOfLetterInAlphabet_ProperValue -->
-        <test-method signature="getIndexOfLetterInAlphabet_WrongValue()[pri:0, instance:com.bieganski.board.CharConverterTest@13eb8acf]" started-at="2019-11-17T20:07:54Z" name="getIndexOfLetterInAlphabet_WrongValue" finished-at="2019-11-17T20:07:54Z" duration-ms="0" status="PASS">
+        <test-method signature="getIndexOfLetterInAlphabet_WrongValue()[pri:0, instance:com.bieganski.board.CharConverterTest@13eb8acf]" started-at="2019-11-17T20:12:49Z" name="getIndexOfLetterInAlphabet_WrongValue" finished-at="2019-11-17T20:12:49Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getIndexOfLetterInAlphabet_WrongValue -->
       </class> <!-- com.bieganski.board.CharConverterTest -->
       <class name="com.bieganski.board.BoardTest">
-        <test-method signature="getFields_ShouldThrowException()[pri:0, instance:com.bieganski.board.BoardTest@543c6f6d]" started-at="2019-11-17T20:07:54Z" name="getFields_ShouldThrowException" finished-at="2019-11-17T20:07:54Z" duration-ms="0" status="PASS">
+        <test-method signature="getFields_ShouldThrowException()[pri:0, instance:com.bieganski.board.BoardTest@543c6f6d]" started-at="2019-11-17T20:12:49Z" name="getFields_ShouldThrowException" finished-at="2019-11-17T20:12:49Z" duration-ms="1" status="PASS">
           <exception class="java.lang.IllegalArgumentException">
             <message>
               <![CDATA[List of figures can't be null]]>
@@ -378,58 +378,58 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
         </test-method> <!-- getFields_ShouldThrowException -->
       </class> <!-- com.bieganski.board.BoardTest -->
       <class name="com.bieganski.figures.KnightTest">
-        <test-method signature="checkCollision_CanNotReturnNull()[pri:0, instance:com.bieganski.figures.KnightTest@1fc2b765]" started-at="2019-11-17T20:07:54Z" name="checkCollision_CanNotReturnNull" finished-at="2019-11-17T20:07:54Z" duration-ms="0" status="PASS">
+        <test-method signature="checkCollision_CanNotReturnNull()[pri:0, instance:com.bieganski.figures.KnightTest@1fc2b765]" started-at="2019-11-17T20:12:49Z" name="checkCollision_CanNotReturnNull" finished-at="2019-11-17T20:12:49Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkCollision_CanNotReturnNull -->
       </class> <!-- com.bieganski.figures.KnightTest -->
       <class name="com.bieganski.board.FieldCoordinatesTest">
-        <test-method signature="getFieldCoordinates_getProperColumnValue()[pri:0, instance:com.bieganski.board.FieldCoordinatesTest@51c8530f]" started-at="2019-11-17T20:07:54Z" name="getFieldCoordinates_getProperColumnValue" finished-at="2019-11-17T20:07:54Z" duration-ms="0" status="PASS">
+        <test-method signature="getFieldCoordinates_getProperColumnValue()[pri:0, instance:com.bieganski.board.FieldCoordinatesTest@51c8530f]" started-at="2019-11-17T20:12:49Z" name="getFieldCoordinates_getProperColumnValue" finished-at="2019-11-17T20:12:49Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getFieldCoordinates_getProperColumnValue -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.bieganski.board.FieldCoordinatesTest@51c8530f]" started-at="2019-11-17T20:07:54Z" name="setUp" finished-at="2019-11-17T20:07:54Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.bieganski.board.FieldCoordinatesTest@51c8530f]" started-at="2019-11-17T20:12:49Z" name="setUp" finished-at="2019-11-17T20:12:49Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="getFieldCoordinates_getProperRowValue()[pri:0, instance:com.bieganski.board.FieldCoordinatesTest@51c8530f]" started-at="2019-11-17T20:07:54Z" name="getFieldCoordinates_getProperRowValue" finished-at="2019-11-17T20:07:54Z" duration-ms="0" status="PASS">
+        <test-method signature="getFieldCoordinates_getProperRowValue()[pri:0, instance:com.bieganski.board.FieldCoordinatesTest@51c8530f]" started-at="2019-11-17T20:12:49Z" name="getFieldCoordinates_getProperRowValue" finished-at="2019-11-17T20:12:49Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getFieldCoordinates_getProperRowValue -->
-        <test-method signature="getFieldCoordinates_getWrongColumnValue()[pri:0, instance:com.bieganski.board.FieldCoordinatesTest@51c8530f]" started-at="2019-11-17T20:07:54Z" name="getFieldCoordinates_getWrongColumnValue" finished-at="2019-11-17T20:07:54Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getFieldCoordinates_getWrongColumnValue -->
-        <test-method signature="getFieldCoordinates_getWrongRowValue()[pri:0, instance:com.bieganski.board.FieldCoordinatesTest@51c8530f]" started-at="2019-11-17T20:07:54Z" name="getFieldCoordinates_getWrongRowValue" finished-at="2019-11-17T20:07:54Z" duration-ms="0" status="PASS">
+        <test-method signature="getFieldCoordinates_getWrongRowValue()[pri:0, instance:com.bieganski.board.FieldCoordinatesTest@51c8530f]" started-at="2019-11-17T20:12:49Z" name="getFieldCoordinates_getWrongRowValue" finished-at="2019-11-17T20:12:49Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getFieldCoordinates_getWrongRowValue -->
-        <test-method signature="setRowValue_setProperRowValue()[pri:0, instance:com.bieganski.board.FieldCoordinatesTest@51c8530f]" started-at="2019-11-17T20:07:54Z" name="setRowValue_setProperRowValue" finished-at="2019-11-17T20:07:54Z" duration-ms="0" status="PASS">
+        <test-method signature="getFieldCoordinates_getWrongColumnValue()[pri:0, instance:com.bieganski.board.FieldCoordinatesTest@51c8530f]" started-at="2019-11-17T20:12:49Z" name="getFieldCoordinates_getWrongColumnValue" finished-at="2019-11-17T20:12:49Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setRowValue_setProperRowValue -->
-        <test-method signature="setColumnValue_setProperColumnValue()[pri:0, instance:com.bieganski.board.FieldCoordinatesTest@51c8530f]" started-at="2019-11-17T20:07:54Z" name="setColumnValue_setProperColumnValue" finished-at="2019-11-17T20:07:54Z" duration-ms="0" status="PASS">
+        </test-method> <!-- getFieldCoordinates_getWrongColumnValue -->
+        <test-method signature="setColumnValue_setProperColumnValue()[pri:0, instance:com.bieganski.board.FieldCoordinatesTest@51c8530f]" started-at="2019-11-17T20:12:49Z" name="setColumnValue_setProperColumnValue" finished-at="2019-11-17T20:12:49Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setColumnValue_setProperColumnValue -->
-        <test-method signature="toString_ValueCanNotBe_Null()[pri:0, instance:com.bieganski.board.FieldCoordinatesTest@51c8530f]" started-at="2019-11-17T20:07:54Z" name="toString_ValueCanNotBe_Null" finished-at="2019-11-17T20:07:54Z" duration-ms="0" status="PASS">
+        <test-method signature="toString_ValueCanNotBe_Null()[pri:0, instance:com.bieganski.board.FieldCoordinatesTest@51c8530f]" started-at="2019-11-17T20:12:49Z" name="toString_ValueCanNotBe_Null" finished-at="2019-11-17T20:12:49Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- toString_ValueCanNotBe_Null -->
+        <test-method signature="setRowValue_setProperRowValue()[pri:0, instance:com.bieganski.board.FieldCoordinatesTest@51c8530f]" started-at="2019-11-17T20:12:49Z" name="setRowValue_setProperRowValue" finished-at="2019-11-17T20:12:49Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setRowValue_setProperRowValue -->
       </class> <!-- com.bieganski.board.FieldCoordinatesTest -->
       <class name="com.bieganski.board.FieldTest">
-        <test-method signature="getFigureOnThisField_ShouldReturnNull()[pri:0, instance:com.bieganski.board.FieldTest@7403c468]" started-at="2019-11-17T20:07:54Z" name="getFigureOnThisField_ShouldReturnNull" finished-at="2019-11-17T20:07:54Z" duration-ms="1" status="PASS">
+        <test-method signature="getFigureOnThisField_ShouldReturnNull()[pri:0, instance:com.bieganski.board.FieldTest@7403c468]" started-at="2019-11-17T20:12:49Z" name="getFigureOnThisField_ShouldReturnNull" finished-at="2019-11-17T20:12:49Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getFigureOnThisField_ShouldReturnNull -->
-        <test-method signature="getFiguresThatCanAttackThisField_CanNotReturnNull()[pri:0, instance:com.bieganski.board.FieldTest@7403c468]" started-at="2019-11-17T20:07:54Z" name="getFiguresThatCanAttackThisField_CanNotReturnNull" finished-at="2019-11-17T20:07:54Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getFiguresThatCanAttackThisField_CanNotReturnNull -->
-        <test-method signature="toString_ValueCanNotBe_Null()[pri:0, instance:com.bieganski.board.FieldTest@7403c468]" started-at="2019-11-17T20:07:54Z" name="toString_ValueCanNotBe_Null" finished-at="2019-11-17T20:07:54Z" duration-ms="0" status="PASS">
+        <test-method signature="toString_ValueCanNotBe_Null()[pri:0, instance:com.bieganski.board.FieldTest@7403c468]" started-at="2019-11-17T20:12:49Z" name="toString_ValueCanNotBe_Null" finished-at="2019-11-17T20:12:49Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- toString_ValueCanNotBe_Null -->
+        <test-method signature="getFiguresThatCanAttackThisField_CanNotReturnNull()[pri:0, instance:com.bieganski.board.FieldTest@7403c468]" started-at="2019-11-17T20:12:49Z" name="getFiguresThatCanAttackThisField_CanNotReturnNull" finished-at="2019-11-17T20:12:49Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFiguresThatCanAttackThisField_CanNotReturnNull -->
       </class> <!-- com.bieganski.board.FieldTest -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->

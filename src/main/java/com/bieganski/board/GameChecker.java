@@ -9,16 +9,19 @@ public class GameChecker {
     public GameChecker(Board board) {
         this.board = board;
     }
+
     public void checkAttacks() {
         for (Figure figure :
                 board.getFigures()) {
             for (FieldCoordinates coordinates :
                     figure.checkCollision()) {
-                board.getFields()[coordinates.getRow()][coordinates.getColumn()].addFigureThatCanAttackThisField(figure);
+                if (!(coordinates.getRow() < 0 || coordinates.getRow() > 7) && !(coordinates.getColumn() < 0 || coordinates.getColumn() > 7))
+                    board.getFields()[coordinates.getRow()][coordinates.getColumn()].addFigureThatCanAttackThisField(figure);
             }
         }
     }
-    public boolean isKingLegal(){
+
+    public boolean isKingLegal() {
         IllegalMoves illegalMoves = new IllegalMoves();
         for (Field[] row :
                 board.getFields()) {
