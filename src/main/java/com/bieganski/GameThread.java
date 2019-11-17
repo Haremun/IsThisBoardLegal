@@ -10,14 +10,15 @@ public class GameThread extends Thread implements BoardCheckingListener, BoardLo
     private boolean answer;
     private long computerTime;
 
+    private static final String FILE_PATH = "/board.txt";
+
     @Override
     public void run() {
         System.out.println("New game: ");
         answer = false;
 
-        BoardLoadThread boardLoadThread = new BoardLoadThread(this, "board.txt");
+        BoardLoadThread boardLoadThread = new BoardLoadThread(this, FILE_PATH);
         boardLoadThread.start();
-
     }
 
     @Override

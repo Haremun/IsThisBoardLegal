@@ -1,11 +1,7 @@
 package com.bieganski.board;
 
 import com.bieganski.IllegalMoves;
-import com.bieganski.board.Board;
-import com.bieganski.board.Field;
 import com.bieganski.figures.Figure;
-
-import java.util.List;
 
 public class GameChecker {
     private Board board;
@@ -18,14 +14,14 @@ public class GameChecker {
                 board.getFigures()) {
             for (FieldCoordinates coordinates :
                     figure.checkCollision()) {
-                board.getBoard()[coordinates.getRow()][coordinates.getColumn()].addFigureThatCanAttackThisField(figure);
+                board.getFields()[coordinates.getRow()][coordinates.getColumn()].addFigureThatCanAttackThisField(figure);
             }
         }
     }
     public boolean isKingLegal(){
         IllegalMoves illegalMoves = new IllegalMoves();
         for (Field[] row :
-                board.getBoard()) {
+                board.getFields()) {
             for (Field field : row)
                 if (field.canBeAttacked())
                     if (illegalMoves.isKingUnderAttackInOpponentsTurn(field.getFigureOnThisField(), board.getCurrentColor()))

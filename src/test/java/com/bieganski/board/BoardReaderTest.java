@@ -24,11 +24,11 @@ public class BoardReaderTest {
 
     @Test
     void readFileToList_LoadProperFile() {
-        Assert.assertFalse(boardReader.readFileToList("board.txt").isEmpty());
+        Assert.assertFalse(boardReader.readFileToList("/board.txt").isEmpty());
     }
     @Test
     void redFileToList_ShouldNotBeNull(){
-        Assert.assertNotNull(boardReader.readFileToList("board.txt"));
+        Assert.assertNotNull(boardReader.readFileToList("/board.txt"));
     }
 
 }

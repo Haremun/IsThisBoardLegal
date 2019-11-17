@@ -1,7 +1,5 @@
 package com.bieganski.board;
 
-import com.bieganski.App;
-
 import java.io.*;
 import java.net.URL;
 import java.util.ArrayList;
@@ -15,13 +13,11 @@ public class BoardReader {
 
         List<String> lines = new ArrayList<>();
 
-        ClassLoader classLoader = this.getClass().getClassLoader();
-        URL resource = classLoader.getResource(fileName); //get File URL
-        //System.out.println(resource.toString());
-        if (resource != null)
+        InputStream inputStream = this.getClass().getResourceAsStream(fileName);
+        if (inputStream != null)
             try {
-                File file = new File(resource.getFile()); //loading filed
-                BufferedReader br = new BufferedReader(new FileReader(file));
+                //File file = new File(resource.getFile()); //loading filed
+                BufferedReader br = new BufferedReader(new InputStreamReader(inputStream));
                 String line;
                 while ((line = br.readLine()) != null) {
                     lines.add(line); //adding each line to list

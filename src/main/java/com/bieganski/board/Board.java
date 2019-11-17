@@ -1,34 +1,40 @@
 package com.bieganski.board;
 
-import com.bieganski.IllegalMoves;
 import com.bieganski.enums.ColorFigure;
 import com.bieganski.figures.Figure;
 
 import java.util.List;
+import java.util.Map;
 
 public class Board {
-    private Field[][] board;
+    private Map<FieldCoordinates, Field> myFields;
+
+    private Field[][] fields;
     private List<Figure> figures;
     private ColorFigure currentColor;
 
     Board(List<Figure> figures, ColorFigure currentColor) {
-        board = new Field[8][8];
+        if (figures == null)
+            throw new IllegalArgumentException("List of figures can't be null");
+        if (currentColor == null)
+            throw new IllegalArgumentException("You have to declare current color");
+        fields = new Field[8][8];
         this.figures = figures;
         this.currentColor = currentColor;
 
         for (Field[] row :
-                board) {
+                fields) {
             for (int i = 0; i < row.length; i++)
                 row[i] = new Field();
         }
         for (Figure figure :
                 figures) {
-            board[figure.getRow()][figure.getColumn()].setFigureOnThisField(figure);
+            fields[figure.getRow()][figure.getColumn()].setFigureOnThisField(figure);
         }
     }
 
-    public Field[][] getBoard() {
-        return board;
+    public Field[][] getFields() {
+        return fields;
     }
 
     public List<Figure> getFigures() {
@@ -42,7 +48,7 @@ public class Board {
     @Override
     public String toString() {
         StringBuilder builder = new StringBuilder();
-        for (Field[] row : board) {
+        for (Field[] row : fields) {
             for (Field field : row) {
                 if (field != null) {
                     builder.append(field);
@@ -56,4 +62,5 @@ public class Board {
 
         return builder.toString();
     }
+
 }

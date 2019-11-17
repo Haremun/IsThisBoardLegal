@@ -9,8 +9,7 @@ import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) {
-        GameThread gameThread = new GameThread();
-        gameThread.start();
+        new GameThread().start();
     }
 
 }

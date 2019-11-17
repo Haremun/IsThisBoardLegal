@@ -1,15 +1,21 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="My test suite">
     <test name="testing">
+        <packages>
+            <package name="com.bieganski.*">
+                
+            </package>
+        </packages>
         <classes>
             <class name="com.bieganski.board.BoardReaderTest" />
             <class name="com.bieganski.board.BoardParserTest" />
             <class name="com.bieganski.board.CharConverterTest" />
             <class name="com.bieganski.board.FieldTest"/>
             <class name="com.bieganski.board.FieldCoordinatesTest"/>
-            <class name="com.bieganski.figures.Figure"/>
-            <class name="com.bieganski.figures.KingFigure"/>
-            <class name="com.bieganski.figures.KnightFigure"/>
+            <class name="com.bieganski.figures.FigureTest"/>
+            <class name="com.bieganski.figures.KingFigureTest"/>
+            <class name="com.bieganski.figures.KnightTest"/>
+            <class name="com.bieganski.board.BoardTest"/>
         </classes>
     </test>
 </suite>
