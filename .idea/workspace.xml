@@ -8,13 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5856099a-d3c5-4520-8f90-c45a0100c6e1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bieganski/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bieganski/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bieganski/board/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bieganski/board/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bieganski/board/Field.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bieganski/board/Field.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bieganski/figures/Figure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bieganski/figures/Figure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bieganski/figures/KingFigure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bieganski/figures/KingFigure.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bieganski/figures/KnightFigure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bieganski/figures/KnightFigure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bieganski/board/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bieganski/board/Board.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -119,7 +113,7 @@
       <option name="presentableId" value="Default" />
       <updated>1573912439974</updated>
       <workItem from="1573912442936" duration="19927000" />
-      <workItem from="1573977718556" duration="8189000" />
+      <workItem from="1573977718556" duration="8934000" />
     </task>
     <servers />
   </component>
