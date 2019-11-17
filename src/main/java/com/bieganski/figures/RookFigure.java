@@ -11,6 +11,11 @@ public class RookFigure extends Figure {
     }
     @Override
     public List<FieldCoordinates> checkCollision() {
-        return null;
+        List<FieldCoordinates> coordinates = new ArrayList<>();
+        for (int i = 0; i < 8; i++){
+            coordinates.add(new FieldCoordinates(i, getColumn()));
+            coordinates.add(new FieldCoordinates(getRow(), i));
+        }
+        return coordinates;
     }
 }

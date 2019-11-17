@@ -1,5 +1,5 @@
 WK F6
 BK F4
-WN D5
-BN A1
+BR D4
+WN D3
 >W
