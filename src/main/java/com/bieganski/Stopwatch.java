@@ -25,6 +25,9 @@ public class Stopwatch {
     public long getTimeInMili(){
         return TimeUnit.NANOSECONDS.toMillis(timeInNano);
     }
+    public long getTimeInSec(){
+        return TimeUnit.NANOSECONDS.toSeconds(timeInNano);
+    }
 
     @Override
     public String toString() {
