@@ -2,6 +2,8 @@ package com.bieganski.figures;
 
 import com.bieganski.enums.ColorFigure;
 
+import java.util.Objects;
+
 public abstract class Figure {
     private char colorFigure;
     private String figureSymbol;
@@ -36,5 +38,28 @@ public abstract class Figure {
 
     public void setColorFigure(char colorFigure) {
         this.colorFigure = colorFigure;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Figure figure = (Figure) o;
+        return figureSymbol.equals(figure.figureSymbol);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(figureSymbol);
+    }
+
+    @Override
+    public String toString() {
+        return "Figure{" +
+                "colorFigure=" + colorFigure +
+                ", figureSymbol='" + figureSymbol + '\'' +
+                ", column=" + column +
+                ", row=" + row +
+                '}';
     }
 }

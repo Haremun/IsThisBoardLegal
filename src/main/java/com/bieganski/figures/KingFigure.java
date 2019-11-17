@@ -9,4 +9,7 @@ public class KingFigure extends Figure {
     protected boolean checkCollision(Figure figure) {
         return false;
     }
+
+
 }
+

@@ -15,7 +15,7 @@ public class App
         BoardParser boardParser = new BoardParser(boardReader.readFileToList("board.txt"));
         boardParser.parse();
         Board board = boardParser.getBoard();
-        board.showBoard();
+        System.out.println(board);
 
     }
 }

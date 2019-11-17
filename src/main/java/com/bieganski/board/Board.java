@@ -24,16 +24,22 @@ public class Board {
         this.currentColor = currentColor;
     }
 
-    public void showBoard() {
-        System.out.println("Current player: " + currentColor.toString());
+    @Override
+    public String toString() {
+        StringBuilder builder = new StringBuilder();
+        builder.append("Current player: ");
+        builder.append(currentColor.toString());
+        builder.append('\n');
         for (Figure[] row : board) {
             for (Figure figure : row) {
-                if (figure != null)
-                    System.out.print(figure.getFigureSymbolWithColor() + " ");
-                else
-                    System.out.print("__ ");
+                if (figure != null) {
+                    builder.append(figure.getFigureSymbolWithColor());
+                    builder.append(" ");
+                } else
+                    builder.append("__ ");
             }
-            System.out.println();
+            builder.append('\n');
         }
+        return builder.toString();
     }
 }
