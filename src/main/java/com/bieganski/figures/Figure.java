@@ -1,7 +1,10 @@
 package com.bieganski.figures;
 
+import com.bieganski.board.Field;
+import com.bieganski.board.FieldCoordinates;
 import com.bieganski.enums.ColorFigure;
 
+import java.util.List;
 import java.util.Objects;
 
 public abstract class Figure {
@@ -10,7 +13,7 @@ public abstract class Figure {
     private int column;
     private int row;
 
-    protected abstract boolean checkCollision(Figure figure);
+    public abstract List<FieldCoordinates> checkCollision();
 
     public int getColumn() {
         return column;

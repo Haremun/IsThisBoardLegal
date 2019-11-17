@@ -1,12 +1,19 @@
 package com.bieganski.figures;
 
+import com.bieganski.board.Field;
+import com.bieganski.board.FieldCoordinates;
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class KnightFigure extends Figure {
-    public KnightFigure(){
+    public KnightFigure() {
         setFigureSymbol("N");
     }
 
     @Override
-    protected boolean checkCollision(Figure figure) {
-        return false;
+    public List<FieldCoordinates> checkCollision() {
+        List<FieldCoordinates> coordinates = new ArrayList<>();
+        return coordinates;
     }
 }

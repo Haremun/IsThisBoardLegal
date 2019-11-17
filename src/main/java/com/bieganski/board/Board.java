@@ -3,25 +3,37 @@ package com.bieganski.board;
 import com.bieganski.enums.ColorFigure;
 import com.bieganski.figures.Figure;
 
-import java.util.Arrays;
 import java.util.List;
 
 public class Board {
-    private Figure[][] board;
+    private Field[][] board;
+    private List<Figure> figures;
     private ColorFigure currentColor;
 
     Board(List<Figure> figures, ColorFigure currentColor) {
-        board = new Figure[8][8];
-        for (Figure[] row :
+        board = new Field[8][8];
+        this.figures = figures;
+        this.currentColor = currentColor;
+
+        for (Field[] row :
                 board) {
-            Arrays.fill(row, null);
+            for (int i = 0; i < row.length; i++)
+                row[i] = new Field();
         }
         for (Figure figure :
                 figures) {
-            board[figure.getRow()][figure.getColumn()] = figure;
+            board[figure.getRow()][figure.getColumn()].setFigureOnThisField(figure);
         }
+    }
 
-        this.currentColor = currentColor;
+    public void checkAttacks() {
+        for (Figure figure :
+                figures) {
+            for (FieldCoordinates coordinates :
+                    figure.checkCollision()) {
+                board[coordinates.getRow()][coordinates.getColumn()].addFigureThatCanAttackThisField(figure);
+            }
+        }
     }
 
     @Override
@@ -30,16 +42,15 @@ public class Board {
         builder.append("Current player: ");
         builder.append(currentColor.toString());
         builder.append('\n');
-        for (Figure[] row : board) {
-            for (Figure figure : row) {
-                if (figure != null) {
-                    builder.append(figure.getFigureSymbolWithColor());
-                    builder.append(" ");
-                } else
-                    builder.append("__ ");
+        for (Field[] row : board) {
+            for (Field field : row) {
+                if (field != null) {
+                    builder.append(field);
+                }
             }
             builder.append('\n');
         }
+
         return builder.toString();
     }
 }
