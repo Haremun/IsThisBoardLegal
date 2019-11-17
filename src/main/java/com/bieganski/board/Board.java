@@ -1,5 +1,6 @@
 package com.bieganski.board;
 
+import com.bieganski.IllegalMoves;
 import com.bieganski.enums.ColorFigure;
 import com.bieganski.figures.Figure;
 
@@ -26,22 +27,21 @@ public class Board {
         }
     }
 
-    public void checkAttacks() {
-        for (Figure figure :
-                figures) {
-            for (FieldCoordinates coordinates :
-                    figure.checkCollision()) {
-                board[coordinates.getRow()][coordinates.getColumn()].addFigureThatCanAttackThisField(figure);
-            }
-        }
+    public Field[][] getBoard() {
+        return board;
+    }
+
+    public List<Figure> getFigures() {
+        return figures;
+    }
+
+    public ColorFigure getCurrentColor() {
+        return currentColor;
     }
 
     @Override
     public String toString() {
         StringBuilder builder = new StringBuilder();
-        builder.append("Current player: ");
-        builder.append(currentColor.toString());
-        builder.append('\n');
         for (Field[] row : board) {
             for (Field field : row) {
                 if (field != null) {
@@ -50,6 +50,9 @@ public class Board {
             }
             builder.append('\n');
         }
+        builder.append("Current player: ");
+        builder.append(currentColor.toString());
+        builder.append('\n');
 
         return builder.toString();
     }

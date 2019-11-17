@@ -25,18 +25,22 @@ public class Field {
         return figuresThatCanAttackThisField;
     }
 
+    boolean canBeAttacked(){
+        return !figuresThatCanAttackThisField.isEmpty();
+    }
+
     void addFigureThatCanAttackThisField(Figure figureThatCanAttackThisField) {
         this.figuresThatCanAttackThisField.add(figureThatCanAttackThisField);
     }
 
     @Override
     public String toString() {
-        if (!figuresThatCanAttackThisField.isEmpty()) {
+        /*if (!figuresThatCanAttackThisField.isEmpty()) {
             if (figureOnThisField != null)
-                return ">" + figureOnThisField.getFigureSymbolWithColor();
+                return figureOnThisField.getFigureSymbolWithColor() + " ";
             else
                 return String.format("%02d ", figuresThatCanAttackThisField.size());
-        }
+        }*/
         if (figureOnThisField == null)
             return "__ ";
         else

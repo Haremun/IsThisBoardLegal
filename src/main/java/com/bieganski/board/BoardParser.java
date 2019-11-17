@@ -43,7 +43,7 @@ public class BoardParser {
                     default:
                         throw new IllegalArgumentException("There is no figure like " + line.charAt(1));
                 }
-                figure.setColorFigure(color); //Set figure color
+                figure.setColorFigureChar(color); //Set figure color
 
                 figure.setColumn(CharConverter.getIndexOfLetterInAlphabet(line.charAt(3)) - 1); //Set figure column
                 figure.setRow(CharConverter.convertCharNumberToInt(line.charAt(4)) - 1); //Set figure row

@@ -2,11 +2,11 @@ package com.bieganski;
 
 import java.util.concurrent.TimeUnit;
 
-public class MeasureTime {
+public class Stopwatch {
     private long startTimeInNano;
     private long stopTimeInNano;
 
-    public MeasureTime() {
+    public Stopwatch() {
     }
 
     public void startMeasure() {

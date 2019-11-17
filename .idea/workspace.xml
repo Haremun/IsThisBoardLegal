@@ -7,10 +7,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5856099a-d3c5-4520-8f90-c45a0100c6e1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bieganski/GameThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bieganski/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bieganski/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/bieganski/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bieganski/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bieganski/MeasureTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bieganski/Stopwatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bieganski/board/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bieganski/board/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bieganski/board/BoardParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bieganski/board/BoardParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bieganski/board/Field.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bieganski/board/Field.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bieganski/figures/Figure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bieganski/figures/Figure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/board.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/board.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/board.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/board.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/bieganski/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bieganski/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bieganski/MeasureTime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bieganski/board/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bieganski/board/Board.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bieganski/board/BoardParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bieganski/board/BoardParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bieganski/board/Field.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bieganski/board/Field.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bieganski/figures/Figure.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bieganski/figures/Figure.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,12 +31,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="294" />
+    <option name="myElementSize" value="311" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -135,7 +148,8 @@
       <option name="presentableId" value="Default" />
       <updated>1573912439974</updated>
       <workItem from="1573912442936" duration="19927000" />
-      <workItem from="1573977718556" duration="19758000" />
+      <workItem from="1573977718556" duration="24297000" />
+      <workItem from="1574007675357" duration="2255000" />
     </task>
     <servers />
   </component>
@@ -159,7 +173,7 @@
     <SUITE FILE_PATH="coverage/IsThisBoardLegal$com_bieganski.ic" NAME="com.bieganski Coverage Results" MODIFIED="1573991299781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.bieganski.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/IsThisBoardLegal$AllTests.ic" NAME="AllTests Coverage Results" MODIFIED="1573996406326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/IsThisBoardLegal$AllTests.ic" NAME="AllTests Coverage Results" MODIFIED="1573999067657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/IsThisBoardLegal$App.ic" NAME="App Coverage Results" MODIFIED="1573991161937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.bieganski.enums.*</FILTER>
     </SUITE>

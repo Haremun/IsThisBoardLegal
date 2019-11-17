@@ -1,14 +1,13 @@
 package com.bieganski.figures;
 
-import com.bieganski.board.Field;
 import com.bieganski.board.FieldCoordinates;
 import com.bieganski.enums.ColorFigure;
 
 import java.util.List;
-import java.util.Objects;
 
 public abstract class Figure {
-    private char colorFigure;
+    private char colorFigureChar;
+    private ColorFigure colorFigure;
     private String figureSymbol;
     private int column;
     private int row;
@@ -36,17 +35,30 @@ public abstract class Figure {
     }
 
     public String getFigureSymbolWithColor() {
-        return colorFigure + figureSymbol;
+        return colorFigureChar + figureSymbol;
     }
 
-    public void setColorFigure(char colorFigure) {
-        this.colorFigure = colorFigure;
+    public String getFigureSymbol() {
+        return figureSymbol;
+    }
+
+    public ColorFigure getColorFigure() {
+        return colorFigure;
+    }
+
+    public void setColorFigureChar(char colorFigureChar) {
+        this.colorFigureChar = colorFigureChar;
+        if (colorFigureChar == 'B')
+            colorFigure = ColorFigure.Black;
+        else
+            colorFigure = ColorFigure.White;
     }
 
     @Override
     public String toString() {
         return "Figure{" +
-                "colorFigure=" + colorFigure +
+                "colorFigure=" + colorFigureChar +
+                " colorFigureEnum=" + colorFigure +
                 ", figureSymbol='" + figureSymbol + '\'' +
                 ", column=" + column +
                 ", row=" + row +
