@@ -38,7 +38,7 @@ public class FieldCoordinatesTest {
     }
 
     @Test
-    void setRowValue_setProperColumnValue() {
+    void setColumnValue_setProperColumnValue() {
         fieldCoordinates = new FieldCoordinates(2, 3); //To think, can't be before testing getters
         fieldCoordinates.setColumn(4);
         Assert.assertEquals(fieldCoordinates.getColumn(), 4);

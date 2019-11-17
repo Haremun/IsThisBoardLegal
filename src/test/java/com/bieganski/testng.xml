@@ -1,9 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="My test suite">
     <test name="testing">
         <classes>
             <class name="com.bieganski.board.BoardReaderTest" />
             <class name="com.bieganski.board.BoardParserTest" />
             <class name="com.bieganski.board.CharConverterTest" />
+            <class name="com.bieganski.board.FieldTest"/>
+            <class name="com.bieganski.board.FieldCoordinatesTest"/>
         </classes>
     </test>
 </suite>
