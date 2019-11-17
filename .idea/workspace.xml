@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="IsThisBoardLegal:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="5856099a-d3c5-4520-8f90-c45a0100c6e1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bieganski/board/CharConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bieganski/board/CharConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bieganski/board/CharConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bieganski/board/CharConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -108,7 +112,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1573912439974</updated>
-      <workItem from="1573912442936" duration="17299000" />
+      <workItem from="1573912442936" duration="19927000" />
+      <workItem from="1573977718556" duration="370000" />
     </task>
     <servers />
   </component>
@@ -120,7 +125,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
