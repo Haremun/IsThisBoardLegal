@@ -1,28 +1,33 @@
 package com.bieganski.board;
 
-import com.bieganski.board.BoardParser;
-import com.bieganski.board.BoardReader;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class BoardParserTest {
     private BoardParser boardParser;
-    private BoardReader boardReader;
+    private List<String> textLinesWithWrongLetters;
 
     @BeforeClass
-    public void setUp(){
-        System.out.println("Board parser test");
-        boardReader = new BoardReader();
+    void setUp() {
+        textLinesWithWrongLetters = new ArrayList<>();
+        textLinesWithWrongLetters.add("LK F6");
+        textLinesWithWrongLetters.add("BL F4");
+        textLinesWithWrongLetters.add("WN Q10");
+        textLinesWithWrongLetters.add(">W");
     }
 
     @Test(expectedExceptions = {NullPointerException.class})
-    public void parse_ThrowsExceptionWhenNull(){
+    void parse_ThrowsExceptionWhenNull() {
         boardParser = new BoardParser(null);
         boardParser.parse();
     }
+
     @Test(expectedExceptions = IllegalArgumentException.class)
-    public void parse_WrongLettersInFile(){
-        boardParser = new BoardParser(boardReader.readFileToList("bad_board.txt"));
+    void parse_WrongLettersInFile() {
+        boardParser = new BoardParser(textLinesWithWrongLetters);
         boardParser.parse();
     }
 }

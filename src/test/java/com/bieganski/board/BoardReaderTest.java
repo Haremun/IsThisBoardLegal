@@ -8,18 +8,22 @@ public class BoardReaderTest {
     private BoardReader boardReader;
 
     @BeforeClass
-    public void setUp() {
-        System.out.println("Testing board reader");
+    void setUp() {
         boardReader = new BoardReader();
     }
 
-    @Test(expectedExceptions = {IllegalArgumentException.class, NullPointerException.class})
-    public void readFileToList_FailToLoadUnexistingFile() {
-        boardReader.readFileToList(null);
+    @Test(expectedExceptions = IllegalArgumentException.class)
+    void readFileToList_ThrowsExceptionWhenFileNameIsBad() {
         boardReader.readFileToList("abc");
     }
+
+    @Test(expectedExceptions = NullPointerException.class)
+    void readFileToList_ThrowsExceptionWhenArgumentIsNull() {
+        boardReader.readFileToList(null);
+    }
+
     @Test
-    public void readFileToList_LoadProperFile(){
+    void readFileToList_LoadProperFile() {
         boardReader.readFileToList("board.txt");
     }
 

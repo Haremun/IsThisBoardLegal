@@ -2,8 +2,9 @@ package com.bieganski.board;
 
 class CharConverter {
     static int getIndexOfLetterInAlphabet(char letter) {
-        if (Character.isLetter(letter))
-            return letter - 64; //ASCII
+        int temp = Character.toUpperCase(letter);
+        if (Character.isLetter(temp))
+            return temp - 64; //ASCII
         else
             throw new IllegalArgumentException("Argument isn't letter!");
 
