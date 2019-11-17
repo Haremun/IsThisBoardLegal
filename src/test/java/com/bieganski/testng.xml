@@ -7,6 +7,9 @@
             <class name="com.bieganski.board.CharConverterTest" />
             <class name="com.bieganski.board.FieldTest"/>
             <class name="com.bieganski.board.FieldCoordinatesTest"/>
+            <class name="com.bieganski.figures.Figure"/>
+            <class name="com.bieganski.figures.KingFigure"/>
+            <class name="com.bieganski.figures.KnightFigure"/>
         </classes>
     </test>
 </suite>
