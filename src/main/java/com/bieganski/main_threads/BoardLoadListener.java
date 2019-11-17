@@ -1,7 +1,7 @@
-package com.bieganski.listeners;
+package com.bieganski.main_threads;
 
 import com.bieganski.board.Board;
 
-public interface BoardLoadListener {
+interface BoardLoadListener {
     void onBoardLoaded(Board board);
 }

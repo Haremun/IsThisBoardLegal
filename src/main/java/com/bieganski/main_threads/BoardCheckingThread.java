@@ -1,8 +1,7 @@
-package com.bieganski;
+package com.bieganski.main_threads;
 
 import com.bieganski.board.Board;
 import com.bieganski.board.GameChecker;
-import com.bieganski.listeners.BoardCheckingListener;
 
 public class BoardCheckingThread extends Thread {
     private Stopwatch stopwatch;

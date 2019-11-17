@@ -1,4 +1,4 @@
-package com.bieganski;
+package com.bieganski.main_threads;
 
 import java.util.concurrent.TimeUnit;
 
@@ -11,6 +11,7 @@ public class Stopwatch {
     }
 
     public void startMeasure() {
+        timeInNano = 0;
         startTimeInNano = System.nanoTime();
     }
 

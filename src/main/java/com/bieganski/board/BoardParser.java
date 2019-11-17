@@ -1,10 +1,7 @@
 package com.bieganski.board;
 
-import com.bieganski.figures.Figure;
-import com.bieganski.figures.KingFigure;
-import com.bieganski.figures.KnightFigure;
+import com.bieganski.figures.*;
 import com.bieganski.enums.ColorFigure;
-import com.bieganski.figures.RookFigure;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -43,6 +40,9 @@ public class BoardParser {
                         break;
                     case 'R':
                         figure= new RookFigure();
+                        break;
+                    case 'B':
+                        figure= new Bishop();
                         break;
                     default:
                         throw new IllegalArgumentException("There is no figure like " + line.charAt(1));

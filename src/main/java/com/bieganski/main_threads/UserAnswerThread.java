@@ -1,6 +1,4 @@
-package com.bieganski;
-
-import com.bieganski.listeners.UserAnswerListener;
+package com.bieganski.main_threads;
 
 import java.util.Scanner;
 

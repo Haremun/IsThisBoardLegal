@@ -1,9 +1,6 @@
-package com.bieganski;
+package com.bieganski.main_threads;
 
 import com.bieganski.board.Board;
-import com.bieganski.listeners.BoardCheckingListener;
-import com.bieganski.listeners.BoardLoadListener;
-import com.bieganski.listeners.UserAnswerListener;
 
 public class GameThread extends Thread implements BoardCheckingListener, BoardLoadListener, UserAnswerListener {
 

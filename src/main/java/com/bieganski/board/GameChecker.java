@@ -1,6 +1,5 @@
 package com.bieganski.board;
 
-import com.bieganski.IllegalMoves;
 import com.bieganski.figures.Figure;
 
 public class GameChecker {
