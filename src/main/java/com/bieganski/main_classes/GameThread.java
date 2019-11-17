@@ -1,4 +1,4 @@
-package com.bieganski.main_threads;
+package com.bieganski.main_classes;
 
 import com.bieganski.board.Board;
 

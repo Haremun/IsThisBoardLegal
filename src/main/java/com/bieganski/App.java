@@ -1,6 +1,6 @@
 package com.bieganski;
 
-import com.bieganski.main_threads.GameThread;
+import com.bieganski.main_classes.GameThread;
 
 public class App {
     public static void main(String[] args) {

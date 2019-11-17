@@ -1,4 +1,4 @@
-package com.bieganski.enums;
+package com.bieganski.board;
 
 public enum ColorFigure {
     Black,

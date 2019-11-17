@@ -1,4 +1,4 @@
-package com.bieganski.main_threads;
+package com.bieganski.main_classes;
 
 import com.bieganski.board.Board;
 import com.bieganski.board.BoardParser;
@@ -8,7 +8,7 @@ class BoardLoadThread extends Thread {
     private BoardLoadListener listener;
     private String fileName;
 
-    public BoardLoadThread(BoardLoadListener listener, String fileName) {
+    BoardLoadThread(BoardLoadListener listener, String fileName) {
         this.listener = listener;
         this.fileName = fileName;
     }

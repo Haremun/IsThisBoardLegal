@@ -1,4 +1,4 @@
-package com.bieganski.main_threads;
+package com.bieganski.main_classes;
 
 import java.util.Scanner;
 
@@ -6,7 +6,7 @@ public class UserAnswerThread extends Thread {
     private UserAnswerListener listener;
     private boolean answered;
 
-    public UserAnswerThread(UserAnswerListener listener) {
+    UserAnswerThread(UserAnswerListener listener) {
         this.listener = listener;
     }
 

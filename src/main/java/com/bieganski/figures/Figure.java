@@ -1,7 +1,7 @@
 package com.bieganski.figures;
 
 import com.bieganski.board.FieldCoordinates;
-import com.bieganski.enums.ColorFigure;
+import com.bieganski.board.ColorFigure;
 
 import java.util.List;
 

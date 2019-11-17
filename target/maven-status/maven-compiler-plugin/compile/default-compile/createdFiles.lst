@@ -19,3 +19,4 @@ com\bieganski\board\CharConverter.class
 com\bieganski\IllegalMoves.class
 com\bieganski\board\GameChecker.class
 com\bieganski\enums\ColorFigure.class
+com\bieganski\figures\RookFigure.class

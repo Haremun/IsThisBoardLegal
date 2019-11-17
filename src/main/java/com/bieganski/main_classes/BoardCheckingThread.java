@@ -1,15 +1,15 @@
-package com.bieganski.main_threads;
+package com.bieganski.main_classes;
 
 import com.bieganski.board.Board;
 import com.bieganski.board.GameChecker;
 
-public class BoardCheckingThread extends Thread {
+class BoardCheckingThread extends Thread {
     private Stopwatch stopwatch;
     private Board board;
     private BoardCheckingListener listener;
     private boolean result;
 
-    public BoardCheckingThread(Board board, BoardCheckingListener listener){
+    BoardCheckingThread(Board board, BoardCheckingListener listener){
         stopwatch= new Stopwatch();
         this.board = board;
         this.listener = listener;

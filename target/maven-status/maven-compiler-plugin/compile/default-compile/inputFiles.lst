@@ -18,4 +18,5 @@ D:\IsThisBoardLegal\src\main\java\com\bieganski\enums\ColorFigure.java
 D:\IsThisBoardLegal\src\main\java\com\bieganski\BoardCheckingThread.java
 D:\IsThisBoardLegal\src\main\java\com\bieganski\listeners\BoardCheckingListener.java
 D:\IsThisBoardLegal\src\main\java\com\bieganski\board\FieldCoordinates.java
+D:\IsThisBoardLegal\src\main\java\com\bieganski\figures\RookFigure.java
 D:\IsThisBoardLegal\src\main\java\com\bieganski\figures\KnightFigure.java

@@ -1,7 +1,5 @@
 package com.bieganski.board;
 
-import com.bieganski.enums.ColorFigure;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class BoardTest {

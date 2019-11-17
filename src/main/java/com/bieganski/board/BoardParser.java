@@ -1,7 +1,6 @@
 package com.bieganski.board;
 
 import com.bieganski.figures.*;
-import com.bieganski.enums.ColorFigure;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,32 +1,31 @@
-package com.bieganski.main_threads;
+package com.bieganski.main_classes;
 
 import java.util.concurrent.TimeUnit;
 
 public class Stopwatch {
     private long startTimeInNano;
-    private long stopTimeInNano;
+    //private long stopTimeInNano;
     private long timeInNano;
 
-    public Stopwatch() {
+    Stopwatch() {
     }
 
-    public void startMeasure() {
+    void startMeasure() {
         timeInNano = 0;
         startTimeInNano = System.nanoTime();
     }
 
-    public void stopMeasure() {
-        stopTimeInNano = System.nanoTime();
-        timeInNano = stopTimeInNano - startTimeInNano;
+    void stopMeasure() {
+        timeInNano = System.nanoTime() - startTimeInNano;
     }
 
-    public long getTimeInNano() {
+    long getTimeInNano() {
         return timeInNano;
     }
-    public long getTimeInMili(){
+    long getTimeInMili(){
         return TimeUnit.NANOSECONDS.toMillis(timeInNano);
     }
-    public long getTimeInSec(){
+    long getTimeInSec(){
         return TimeUnit.NANOSECONDS.toSeconds(timeInNano);
     }
 

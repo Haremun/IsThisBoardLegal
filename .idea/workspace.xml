@@ -8,10 +8,40 @@
   <component name="ChangeListManager">
     <list default="true" id="5856099a-d3c5-4520-8f90-c45a0100c6e1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bieganski/board/GameChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bieganski/board/GameChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bieganski/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bieganski/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bieganski/board/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bieganski/board/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bieganski/board/BoardParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bieganski/board/BoardParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bieganski/board/IllegalMoves.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bieganski/board/IllegalMoves.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bieganski/enums/ColorFigure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bieganski/board/ColorFigure.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bieganski/figures/Figure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bieganski/figures/Figure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bieganski/main_threads/BoardCheckingListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bieganski/main_classes/BoardCheckingListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bieganski/main_threads/BoardCheckingThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bieganski/main_classes/BoardCheckingThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bieganski/main_threads/BoardLoadListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bieganski/main_classes/BoardLoadListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bieganski/main_threads/BoardLoadThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bieganski/main_classes/BoardLoadThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bieganski/main_threads/GameThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bieganski/main_classes/GameThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bieganski/main_threads/Stopwatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bieganski/main_classes/Stopwatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bieganski/main_threads/UserAnswerListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bieganski/main_classes/UserAnswerListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bieganski/main_threads/UserAnswerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bieganski/main_classes/UserAnswerThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bieganski/main_threads/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bieganski/main_classes/UserInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bieganski/board/BoardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bieganski/board/BoardTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/board.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/board.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bieganski/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bieganski/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bieganski/BoardCheckingThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bieganski/BoardLoadThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bieganski/GameThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bieganski/IllegalMoves.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bieganski/Stopwatch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bieganski/UserAnswerThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bieganski/board/BoardParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bieganski/board/BoardParser.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/bieganski/board/GameChecker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bieganski/board/GameChecker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bieganski/figures/Figure.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bieganski/figures/Figure.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bieganski/figures/RookFigure.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bieganski/figures/RookFigure.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bieganski/listeners/BoardCheckingListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bieganski/listeners/BoardLoadListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bieganski/listeners/UserAnswerListener.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/is-this-board-legal-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/is-this-board-legal-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/Surefire suite/Surefire test.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Surefire suite/Surefire test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/Surefire suite/Surefire test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Surefire suite/Surefire test.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
@@ -101,7 +131,7 @@
       <module name="IsThisBoardLegal" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bieganski.enums.*" />
+          <option name="PATTERN" value="com.bieganski.board.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,7 +190,7 @@
       <updated>1573912439974</updated>
       <workItem from="1573912442936" duration="19927000" />
       <workItem from="1573977718556" duration="24297000" />
-      <workItem from="1574007675357" duration="14943000" />
+      <workItem from="1574007675357" duration="17895000" />
     </task>
     <servers />
   </component>
