@@ -4,15 +4,15 @@ import com.bieganski.board.Board;
 
 public class GameThread extends Thread implements BoardCheckingListener, BoardLoadListener, UserAnswerListener {
 
-    private boolean answer;
     private long computerTime;
+    private Answer answer;
 
     private static final String FILE_PATH = "/board.txt";
 
     @Override
     public void run() {
         System.out.println("New game: ");
-        answer = false;
+        answer = new Answer();
 
         BoardLoadThread boardLoadThread = new BoardLoadThread(this, FILE_PATH);
         boardLoadThread.start();
@@ -20,7 +20,9 @@ public class GameThread extends Thread implements BoardCheckingListener, BoardLo
 
     @Override
     public void onBoardChecked(boolean legal, long time) {
-        answer = legal;
+        answer.setComputerAnswer(legal);
+        if (answer.isAnswered())
+            System.out.println(answer.toString());
         computerTime = time;
     }
 
@@ -38,17 +40,9 @@ public class GameThread extends Thread implements BoardCheckingListener, BoardLo
 
     @Override
     public void onUserAnswer(boolean userAnswer, long time) {
-        if (userAnswer)
-            if (answer)
-                System.out.println("You are right, board is legal");
-            else
-                System.out.println("Wrong, board is illegal");
-        else {
-            if (answer)
-                System.out.println("You are wrong, board is legal");
-            else
-                System.out.println("You are right, board is illegal");
-        }
+        answer.setUserAnswer(userAnswer);
+        if (answer.isAnswered())
+            System.out.println(answer.toString());
         System.out.println("Your time: " + time + " sec");
         System.out.println("Computer time: " + computerTime + " ms");
     }
