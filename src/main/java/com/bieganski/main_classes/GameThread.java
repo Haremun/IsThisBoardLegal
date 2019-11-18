@@ -6,6 +6,7 @@ public class GameThread extends Thread implements BoardCheckingListener, BoardLo
 
     private long computerTime;
     private Answer answer;
+    private Times times;
 
     private static final String FILE_PATH = "/board.txt";
 
@@ -13,6 +14,7 @@ public class GameThread extends Thread implements BoardCheckingListener, BoardLo
     public void run() {
         System.out.println("New game: ");
         answer = new Answer();
+        times = new Times();
 
         BoardLoadThread boardLoadThread = new BoardLoadThread(this, FILE_PATH);
         boardLoadThread.start();
@@ -20,9 +22,14 @@ public class GameThread extends Thread implements BoardCheckingListener, BoardLo
 
     @Override
     public void onBoardChecked(boolean legal, long time) {
-        answer.setComputerAnswer(legal);
-        if (answer.isAnswered())
+        times.setComputerTime(time);
+        if (answer.isAnswered()) {
+            answer.setComputerAnswer(legal);
             System.out.println(answer.toString());
+            System.out.println(times.toString());
+        } else
+            answer.setComputerAnswer(legal);
+
         computerTime = time;
     }
 
@@ -40,10 +47,13 @@ public class GameThread extends Thread implements BoardCheckingListener, BoardLo
 
     @Override
     public void onUserAnswer(boolean userAnswer, long time) {
-        answer.setUserAnswer(userAnswer);
-        if (answer.isAnswered())
+        times.setUserTime(time);
+        if (answer.isAnswered()) {
+            answer.setUserAnswer(userAnswer);
             System.out.println(answer.toString());
-        System.out.println("Your time: " + time + " sec");
-        System.out.println("Computer time: " + computerTime + " ms");
+            System.out.println(times.toString());
+        } else
+            answer.setUserAnswer(userAnswer);
+
     }
 }

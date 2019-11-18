@@ -2,7 +2,7 @@ package com.bieganski.main_classes;
 
 import java.util.concurrent.TimeUnit;
 
-public class Stopwatch {
+class Stopwatch {
     private long startTimeInNano;
     //private long stopTimeInNano;
     private long timeInNano;
