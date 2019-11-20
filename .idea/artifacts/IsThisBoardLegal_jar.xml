@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="IsThisBoardLegal:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/IsThisBoardLegal_jar</output-path>
-    <root id="archive" name="IsThisBoardLegal.jar">
-      <element id="module-output" name="IsThisBoardLegal" />
-    </root>
-  </artifact>
-</component>

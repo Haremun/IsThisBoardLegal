@@ -1,9 +1,0 @@
-com\bieganski\board\BoardTest.class
-com\bieganski\figures\KingFigureTest.class
-com\bieganski\board\CharConverterTest.class
-com\bieganski\figures\FigureTest.class
-com\bieganski\figures\KnightTest.class
-com\bieganski\board\FieldTest.class
-com\bieganski\board\BoardParserTest.class
-com\bieganski\board\BoardReaderTest.class
-com\bieganski\board\FieldCoordinatesTest.class
