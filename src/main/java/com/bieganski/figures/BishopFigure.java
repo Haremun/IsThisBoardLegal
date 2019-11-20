@@ -1,12 +1,13 @@
 package com.bieganski.figures;
 
 import com.bieganski.board.FieldCoordinates;
+import com.bieganski.figures.Figure;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Bishop extends Figure {
-    public Bishop(){
+public class BishopFigure extends Figure {
+    public BishopFigure(){
         setFigureSymbol("B");
     }
     @Override
